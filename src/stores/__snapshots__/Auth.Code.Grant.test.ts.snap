@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AuthStore /> renders correctly 1`] = `
+AuthStore {
+  "auth0": Object {
+    "authorize": [MockFunction],
+    "checkSession": [MockFunction],
+    "client": Object {
+      "userInfo": [MockFunction],
+    },
+    "logout": [MockFunction],
+    "parseHash": [MockFunction],
+  },
+  "checkSession": [Function],
+  "checkSessionTimeout": null,
+  "config": undefined,
+  "injectIphrame": [Function],
+  "logout": [Function],
+  "logoutTimeout": null,
+  "redirectToLoginPage": [Function],
+  "settings": Object {
+    "clientID": "",
+    "domain": "",
+    "redirectUri": "http://localhost",
+    "responseType": "code",
+  },
+}
+`;

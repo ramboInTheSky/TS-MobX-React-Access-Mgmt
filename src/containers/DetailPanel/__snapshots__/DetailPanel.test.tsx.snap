@@ -1,0 +1,357 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DetailPanel /> correctly goes back to non-edit mode 1`] = `
+<Boundary>
+  <Styled(WithStyles(ForwardRef(Paper)))>
+    <Styled(div)>
+      <span>
+        <pure(PersonIcon) />
+        Profile
+      </span>
+      <WithStyles(WithFormControlContext(ForwardRef(FormControlLabel)))
+        control={
+          <ForwardRef(WithStyles)
+            className="no-end-date-checkbox"
+            name="isStaff"
+            onChange={[Function]}
+          />
+        }
+        label="Is staff"
+      />
+    </Styled(div)>
+    <CSSTransitionGroup
+      transitionAppear={true}
+      transitionAppearTimeout={100}
+      transitionEnter={true}
+      transitionEnterTimeout={100}
+      transitionLeave={true}
+      transitionLeaveTimeout={100}
+      transitionName="expand"
+    >
+      <Styled(div)>
+        <Styled(div)
+          elevation={1}
+        >
+          <Styled(WithStyles(ForwardRef(TextField)))
+            name="firstName"
+            onChange={[Function]}
+            placeholder="First Name"
+          />
+        </Styled(div)>
+        <Styled(div)
+          elevation={1}
+        >
+          <Styled(WithStyles(ForwardRef(TextField)))
+            name="lastName"
+            onChange={[Function]}
+            placeholder="Last Name"
+          />
+        </Styled(div)>
+      </Styled(div)>
+      <Styled(div)>
+        <Styled(div)
+          elevation={1}
+        >
+          <Styled(WithStyles(ForwardRef(TextField)))
+            name="company"
+            onChange={[Function]}
+            placeholder="Company"
+          />
+        </Styled(div)>
+        <Styled(div)
+          elevation={1}
+        >
+          <Styled(WithStyles(ForwardRef(TextField)))
+            name="mobileNumber"
+            onChange={[Function]}
+            placeholder="Mobile Number"
+          />
+        </Styled(div)>
+        <Styled(div)
+          elevation={1}
+        >
+          <Styled(WithStyles(ForwardRef(TextField)))
+            name="emailAddress"
+            onChange={[Function]}
+            placeholder="Email Address"
+          />
+        </Styled(div)>
+        <Styled(div)
+          elevation={1}
+        >
+          <Styled(WithStyles(ForwardRef(TextField)))
+            multiline={true}
+            name="notes"
+            onChange={[Function]}
+            placeholder="Notes"
+          />
+        </Styled(div)>
+      </Styled(div)>
+    </CSSTransitionGroup>
+    <Styled(div)>
+      <WithStyles(ForwardRef(Button))
+        className="cancel-edit-button"
+        onClick={[Function]}
+        variant="contained"
+      >
+        <pure(KeyboardArrowLeftIcon) />
+         Cancel
+      </WithStyles(ForwardRef(Button))>
+      <Styled(div)>
+        <WithStyles(ForwardRef(Button))
+          className="detail-panel-save-button"
+          color="primary"
+          onClick={[Function]}
+          variant="contained"
+        >
+          <pure(SaveIcon) />
+           Save
+        </WithStyles(ForwardRef(Button))>
+      </Styled(div)>
+    </Styled(div)>
+  </Styled(WithStyles(ForwardRef(Paper)))>
+</Boundary>
+`;
+
+exports[`<DetailPanel /> renders correctly with data 1`] = `
+<Boundary>
+  <Styled(WithStyles(ForwardRef(Paper)))>
+    <Styled(div)>
+      <span>
+        <pure(PersonIcon) />
+        Profile
+      </span>
+      <Styled(WithStyles(ForwardRef(IconButton)))
+        aria-label="Edit"
+        id="edit-icon-button"
+        onClick={[Function]}
+        title="Edit"
+      >
+        <pure(EditIcon) />
+      </Styled(WithStyles(ForwardRef(IconButton)))>
+    </Styled(div)>
+    <Styled(div)>
+      <CSSTransitionGroup
+        transitionAppear={true}
+        transitionAppearTimeout={200}
+        transitionEnter={true}
+        transitionEnterTimeout={200}
+        transitionLeave={true}
+        transitionLeaveTimeout={200}
+        transitionName="fade"
+      >
+        <Styled(div)>
+          undefined undefined
+        </Styled(div)>
+        <Styled(div)
+          key="company"
+        />
+        <Styled(div)
+          key="mobileNumber"
+        />
+        <Styled(div)
+          key="emailAddress"
+        />
+      </CSSTransitionGroup>
+    </Styled(div)>
+    <Styled(div)>
+      <WithStyles(ForwardRef(Button))
+        onClick={[Function]}
+        variant="contained"
+      >
+        <pure(KeyboardArrowLeftIcon) />
+         Back
+      </WithStyles(ForwardRef(Button))>
+      <Styled(div)>
+        <WithStyles(ForwardRef(Button))
+          className="detail-panel-add-visit-button"
+          color="primary"
+          onClick={[Function]}
+          variant="contained"
+        >
+          <pure(HotelIcon) />
+          Add Visit
+        </WithStyles(ForwardRef(Button))>
+      </Styled(div)>
+    </Styled(div)>
+  </Styled(WithStyles(ForwardRef(Paper)))>
+</Boundary>
+`;
+
+exports[`<DetailPanel /> renders correctly with no data 1`] = `
+<Boundary>
+  <Styled(WithStyles(ForwardRef(Paper)))>
+    <Styled(div)>
+      <span>
+        <pure(PersonIcon) />
+        Profile
+      </span>
+      <Styled(WithStyles(ForwardRef(IconButton)))
+        aria-label="Edit"
+        id="edit-icon-button"
+        onClick={[Function]}
+        title="Edit"
+      >
+        <pure(EditIcon) />
+      </Styled(WithStyles(ForwardRef(IconButton)))>
+    </Styled(div)>
+    <Styled(div)>
+      <CSSTransitionGroup
+        transitionAppear={true}
+        transitionAppearTimeout={200}
+        transitionEnter={true}
+        transitionEnterTimeout={200}
+        transitionLeave={true}
+        transitionLeaveTimeout={200}
+        transitionName="fade"
+      >
+        <Styled(div)>
+          undefined undefined
+        </Styled(div)>
+        <Styled(div)
+          key="company"
+        />
+        <Styled(div)
+          key="mobileNumber"
+        />
+        <Styled(div)
+          key="emailAddress"
+        />
+      </CSSTransitionGroup>
+    </Styled(div)>
+    <Styled(div)>
+      <WithStyles(ForwardRef(Button))
+        onClick={[Function]}
+        variant="contained"
+      >
+        <pure(KeyboardArrowLeftIcon) />
+         Back
+      </WithStyles(ForwardRef(Button))>
+      <Styled(div)>
+        <WithStyles(ForwardRef(Button))
+          className="detail-panel-add-visit-button"
+          color="primary"
+          onClick={[Function]}
+          variant="contained"
+        >
+          <pure(HotelIcon) />
+          Add Visit
+        </WithStyles(ForwardRef(Button))>
+      </Styled(div)>
+    </Styled(div)>
+  </Styled(WithStyles(ForwardRef(Paper)))>
+</Boundary>
+`;
+
+exports[`<DetailPanel /> sets edit mode on edit click and display correctly 1`] = `
+<Boundary>
+  <Styled(WithStyles(ForwardRef(Paper)))>
+    <Styled(div)>
+      <span>
+        <pure(PersonIcon) />
+        Profile
+      </span>
+      <WithStyles(WithFormControlContext(ForwardRef(FormControlLabel)))
+        control={
+          <ForwardRef(WithStyles)
+            className="no-end-date-checkbox"
+            name="isStaff"
+            onChange={[Function]}
+          />
+        }
+        label="Is staff"
+      />
+    </Styled(div)>
+    <CSSTransitionGroup
+      transitionAppear={true}
+      transitionAppearTimeout={100}
+      transitionEnter={true}
+      transitionEnterTimeout={100}
+      transitionLeave={true}
+      transitionLeaveTimeout={100}
+      transitionName="expand"
+    >
+      <Styled(div)>
+        <Styled(div)
+          elevation={1}
+        >
+          <Styled(WithStyles(ForwardRef(TextField)))
+            name="firstName"
+            onChange={[Function]}
+            placeholder="First Name"
+          />
+        </Styled(div)>
+        <Styled(div)
+          elevation={1}
+        >
+          <Styled(WithStyles(ForwardRef(TextField)))
+            name="lastName"
+            onChange={[Function]}
+            placeholder="Last Name"
+          />
+        </Styled(div)>
+      </Styled(div)>
+      <Styled(div)>
+        <Styled(div)
+          elevation={1}
+        >
+          <Styled(WithStyles(ForwardRef(TextField)))
+            name="company"
+            onChange={[Function]}
+            placeholder="Company"
+          />
+        </Styled(div)>
+        <Styled(div)
+          elevation={1}
+        >
+          <Styled(WithStyles(ForwardRef(TextField)))
+            name="mobileNumber"
+            onChange={[Function]}
+            placeholder="Mobile Number"
+          />
+        </Styled(div)>
+        <Styled(div)
+          elevation={1}
+        >
+          <Styled(WithStyles(ForwardRef(TextField)))
+            name="emailAddress"
+            onChange={[Function]}
+            placeholder="Email Address"
+          />
+        </Styled(div)>
+        <Styled(div)
+          elevation={1}
+        >
+          <Styled(WithStyles(ForwardRef(TextField)))
+            multiline={true}
+            name="notes"
+            onChange={[Function]}
+            placeholder="Notes"
+          />
+        </Styled(div)>
+      </Styled(div)>
+    </CSSTransitionGroup>
+    <Styled(div)>
+      <WithStyles(ForwardRef(Button))
+        className="cancel-edit-button"
+        onClick={[Function]}
+        variant="contained"
+      >
+        <pure(KeyboardArrowLeftIcon) />
+         Cancel
+      </WithStyles(ForwardRef(Button))>
+      <Styled(div)>
+        <WithStyles(ForwardRef(Button))
+          className="detail-panel-save-button"
+          color="primary"
+          onClick={[Function]}
+          variant="contained"
+        >
+          <pure(SaveIcon) />
+           Save
+        </WithStyles(ForwardRef(Button))>
+      </Styled(div)>
+    </Styled(div)>
+  </Styled(WithStyles(ForwardRef(Paper)))>
+</Boundary>
+`;

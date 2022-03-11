@@ -1,0 +1,7 @@
+applySettings(
+    {
+        client_id: "KrPt3BQJGvHug9bU-1JSTdXoI5Hzdb6E",
+        domain: "staging-thecollective.eu.auth0.com",
+        audience: "https://staging-thecollective.eu.auth0.com/api/v2/"
+    }
+)

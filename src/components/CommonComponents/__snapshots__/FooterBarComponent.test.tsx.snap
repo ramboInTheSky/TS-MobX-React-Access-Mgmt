@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FooterBarComponents /> renders correctly ActionsBar 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
+
+exports[`<FooterBarComponents /> renders correctly ButtonsContainer 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;

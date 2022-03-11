@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Search /> renders correctly 1`] = `
+<Boundary>
+  <Styled(WithStyles(ForwardRef(Paper)))
+    elevation={1}
+  >
+    <Styled(WithStyles(ForwardRef(InputBase)))
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      placeholder="this is a placeholder"
+      value=""
+    />
+    <Styled(WithStyles(ForwardRef(IconButton)))
+      aria-label="Search"
+      onClick={[Function]}
+      title="Search"
+    >
+      <pure(SearchIcon) />
+    </Styled(WithStyles(ForwardRef(IconButton)))>
+  </Styled(WithStyles(ForwardRef(Paper)))>
+</Boundary>
+`;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VisitStore /> renders correctly 1`] = `
+VisitStore {
+  "apiEnded": [Function],
+  "fresh": false,
+  "isFresh": [Function],
+  "url": "https://csp-dev.thecollective.com/ac-api/visit",
+}
+`;

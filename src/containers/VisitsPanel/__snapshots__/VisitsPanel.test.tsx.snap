@@ -1,0 +1,258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VisitsPanel /> renders correctly with data 1`] = `
+<VisitsPanel
+  profiles={
+    ProfilesMock {
+      "data": Array [
+        Object {
+          "company": "test 123",
+          "created": "2019-04-16T12:03:37.493156",
+          "emailAddress": "dsg@dsf.com",
+          "firstName": "Clark",
+          "id": "1aa657bc-d556-4643-a68f-af46f1bdba89",
+          "isStaff": false,
+          "lastName": "Kent",
+          "mobileNumber": "01234567890",
+          "notes": "fdsdfsfs",
+          "visits": Array [
+            Object {
+              "archetypeIds": Array [],
+              "fromDate": "2015-03-23T11:00:00Z",
+              "id": "d3aa88e2-c754-41e0-8ba6-4198a34aa0a2",
+              "lockGroups": Array [
+                "Default",
+                "Boiler",
+                "1.11",
+              ],
+              "tagNumbers": Array [
+                "123123",
+                "234234",
+                "345345",
+              ],
+              "toDate": "2015-11-25T12:00:00Z",
+            },
+          ],
+        },
+      ],
+      "detail": Object {
+        "company": "test 123",
+        "created": "2019-04-16T12:03:37.493156",
+        "emailAddress": "dsg@dsf.com",
+        "firstName": "Clark",
+        "id": "1aa657bc-d556-4643-a68f-af46f1bdba89",
+        "lastName": "Kent",
+        "mobileNumber": "01234567890",
+        "notes": "fdsdfsfs",
+        "visits": Array [
+          Object {
+            "archetypeIds": Array [],
+            "fromDate": "2015-03-23T11:00:00Z",
+            "id": "d3aa88e2-c754-41e0-8ba6-4198a34aa0a2",
+            "lockGroups": Array [
+              "Default",
+              "Boiler",
+              "1.11",
+            ],
+            "tagNumbers": Array [
+              "123123",
+              "234234",
+              "345345",
+            ],
+            "toDate": "2015-11-25T12:00:00Z",
+          },
+        ],
+      },
+      "getDetail": [MockFunction],
+      "getList": [MockFunction],
+      "isError": false,
+      "isLoading": false,
+      "item": Profile {
+        "company": undefined,
+        "created": undefined,
+        "emailAddress": "",
+        "firstName": "",
+        "fullName": undefined,
+        "id": "",
+        "isStaff": false,
+        "lastName": "",
+        "mobileNumber": "",
+        "notes": undefined,
+        "numberOfTags": undefined,
+        "type": undefined,
+        "visits": undefined,
+      },
+      "items": Array [],
+      "save": [MockFunction],
+      "toggleEditing": [MockFunction],
+    }
+  }
+  routing={
+    RoutingMock {
+      "breadcrumb": Array [
+        Object {
+          "id": "123-123-123",
+          "page": "profile",
+        },
+      ],
+      "getBreadcrumb": [MockFunction],
+      "go": [MockFunction],
+      "goBack": [MockFunction],
+      "goBackToPage": [MockFunction],
+      "goForward": [MockFunction],
+      "history": Object {},
+      "location": Object {},
+      "push": [MockFunction],
+      "replace": [MockFunction],
+      "resizeBreadcrumbs": [MockFunction],
+      "splitThings": [MockFunction],
+    }
+  }
+  visits={
+    Array [
+      Object {
+        "from": "2015-03-25T12:00:00Z",
+        "id": "q3w4c5-w34cr-w34cw34-5cw3-4cw345-3cw34t",
+        "lockGroups": Array [
+          "Default",
+          "Boiler",
+          "1.11",
+        ],
+        "tags": Array [
+          "123123",
+          "234234",
+          "345345",
+        ],
+        "to": "2015-03-25T12:00:00Z",
+      },
+      Object {
+        "from": "2019-04-01T10:00:10.000Z",
+        "id": "vvv4c5-w34cr-w34cw34-5cbb-4cw345-3cw311",
+        "lockGroups": Array [
+          "Default",
+          "Boiler",
+          "1.11",
+        ],
+        "tags": Array [
+          "123123",
+          "234234",
+          "345345",
+        ],
+        "to": "2019-05-01T10:00:10.000Z",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<VisitsPanel /> renders correctly with no data 1`] = `
+<VisitsPanel
+  profiles={
+    ProfilesMock {
+      "data": Array [
+        Object {
+          "company": "test 123",
+          "created": "2019-04-16T12:03:37.493156",
+          "emailAddress": "dsg@dsf.com",
+          "firstName": "Clark",
+          "id": "1aa657bc-d556-4643-a68f-af46f1bdba89",
+          "isStaff": false,
+          "lastName": "Kent",
+          "mobileNumber": "01234567890",
+          "notes": "fdsdfsfs",
+          "visits": Array [
+            Object {
+              "archetypeIds": Array [],
+              "fromDate": "2015-03-23T11:00:00Z",
+              "id": "d3aa88e2-c754-41e0-8ba6-4198a34aa0a2",
+              "lockGroups": Array [
+                "Default",
+                "Boiler",
+                "1.11",
+              ],
+              "tagNumbers": Array [
+                "123123",
+                "234234",
+                "345345",
+              ],
+              "toDate": "2015-11-25T12:00:00Z",
+            },
+          ],
+        },
+      ],
+      "detail": Object {
+        "company": "test 123",
+        "created": "2019-04-16T12:03:37.493156",
+        "emailAddress": "dsg@dsf.com",
+        "firstName": "Clark",
+        "id": "1aa657bc-d556-4643-a68f-af46f1bdba89",
+        "lastName": "Kent",
+        "mobileNumber": "01234567890",
+        "notes": "fdsdfsfs",
+        "visits": Array [
+          Object {
+            "archetypeIds": Array [],
+            "fromDate": "2015-03-23T11:00:00Z",
+            "id": "d3aa88e2-c754-41e0-8ba6-4198a34aa0a2",
+            "lockGroups": Array [
+              "Default",
+              "Boiler",
+              "1.11",
+            ],
+            "tagNumbers": Array [
+              "123123",
+              "234234",
+              "345345",
+            ],
+            "toDate": "2015-11-25T12:00:00Z",
+          },
+        ],
+      },
+      "getDetail": [MockFunction],
+      "getList": [MockFunction],
+      "isError": false,
+      "isLoading": false,
+      "item": Profile {
+        "company": undefined,
+        "created": undefined,
+        "emailAddress": "",
+        "firstName": "",
+        "fullName": undefined,
+        "id": "",
+        "isStaff": false,
+        "lastName": "",
+        "mobileNumber": "",
+        "notes": undefined,
+        "numberOfTags": undefined,
+        "type": undefined,
+        "visits": undefined,
+      },
+      "items": Array [],
+      "save": [MockFunction],
+      "toggleEditing": [MockFunction],
+    }
+  }
+  routing={
+    RoutingMock {
+      "breadcrumb": Array [
+        Object {
+          "id": "123-123-123",
+          "page": "profile",
+        },
+      ],
+      "getBreadcrumb": [MockFunction],
+      "go": [MockFunction],
+      "goBack": [MockFunction],
+      "goBackToPage": [MockFunction],
+      "goForward": [MockFunction],
+      "history": Object {},
+      "location": Object {},
+      "push": [MockFunction],
+      "replace": [MockFunction],
+      "resizeBreadcrumbs": [MockFunction],
+      "splitThings": [MockFunction],
+    }
+  }
+  visits={Array []}
+/>
+`;

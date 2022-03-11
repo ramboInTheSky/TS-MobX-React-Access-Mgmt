@@ -1,0 +1,347 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ViewVisitPanel /> renders correctly 1`] = `
+<ViewVisitPanel
+  match={
+    Object {
+      "params": Object {
+        "profileId": "123",
+      },
+    }
+  }
+  profiles={
+    ProfilesMock {
+      "data": Array [
+        Object {
+          "company": "test 123",
+          "created": "2019-04-16T12:03:37.493156",
+          "emailAddress": "dsg@dsf.com",
+          "firstName": "Clark",
+          "id": "1aa657bc-d556-4643-a68f-af46f1bdba89",
+          "isStaff": false,
+          "lastName": "Kent",
+          "mobileNumber": "01234567890",
+          "notes": "fdsdfsfs",
+          "visits": Array [
+            Object {
+              "archetypeIds": Array [],
+              "fromDate": "2015-03-23T11:00:00Z",
+              "id": "d3aa88e2-c754-41e0-8ba6-4198a34aa0a2",
+              "lockGroups": Array [
+                "Default",
+                "Boiler",
+                "1.11",
+              ],
+              "tagNumbers": Array [
+                "123123",
+                "234234",
+                "345345",
+              ],
+              "toDate": "2015-11-25T12:00:00Z",
+            },
+          ],
+        },
+      ],
+      "detail": Object {
+        "company": "test 123",
+        "created": "2019-04-16T12:03:37.493156",
+        "emailAddress": "dsg@dsf.com",
+        "firstName": "Clark",
+        "id": "1aa657bc-d556-4643-a68f-af46f1bdba89",
+        "lastName": "Kent",
+        "mobileNumber": "01234567890",
+        "notes": "fdsdfsfs",
+        "visits": Array [
+          Object {
+            "archetypeIds": Array [],
+            "fromDate": "2015-03-23T11:00:00Z",
+            "id": "d3aa88e2-c754-41e0-8ba6-4198a34aa0a2",
+            "lockGroups": Array [
+              "Default",
+              "Boiler",
+              "1.11",
+            ],
+            "tagNumbers": Array [
+              "123123",
+              "234234",
+              "345345",
+            ],
+            "toDate": "2015-11-25T12:00:00Z",
+          },
+        ],
+      },
+      "getDetail": [MockFunction],
+      "getList": [MockFunction],
+      "isError": false,
+      "isLoading": false,
+      "item": Profile {
+        "company": undefined,
+        "created": undefined,
+        "emailAddress": "",
+        "firstName": "",
+        "fullName": undefined,
+        "id": "",
+        "isStaff": false,
+        "lastName": "",
+        "mobileNumber": "",
+        "notes": undefined,
+        "numberOfTags": undefined,
+        "type": undefined,
+        "visits": undefined,
+      },
+      "items": Array [],
+      "save": [MockFunction],
+      "toggleEditing": [MockFunction],
+    }
+  }
+  routing={
+    RoutingMock {
+      "breadcrumb": Array [
+        Object {
+          "id": "123-123-123",
+          "page": "profile",
+        },
+      ],
+      "getBreadcrumb": [MockFunction],
+      "go": [MockFunction],
+      "goBack": [MockFunction],
+      "goBackToPage": [MockFunction],
+      "goForward": [MockFunction],
+      "history": Object {},
+      "location": Object {},
+      "push": [MockFunction],
+      "replace": [MockFunction],
+      "resizeBreadcrumbs": [MockFunction],
+      "splitThings": [MockFunction],
+    }
+  }
+  visits={
+    VisitsMock {
+      "addAccess": [MockFunction],
+      "addTag": [MockFunction],
+      "archetypes": Object {
+        "primary": Array [
+          Object {
+            "id": "111-111-111",
+            "lockGroupNames": Array [
+              "door1",
+              "door2",
+            ],
+            "name": "Functional API Tests",
+            "primary": false,
+          },
+        ],
+        "secondary": Array [],
+      },
+      "clearErrors": [MockFunction],
+      "detail": Object {
+        "archetype_ids": Array [
+          "d8be7c8d-a89f-4632-b71e-2d756463643c",
+        ],
+        "from_date": "2019-05-30T13:44:43.463Z",
+        "id": "d8be7c8d-a89f-4632-b71e-2d756463643c",
+        "tag_numbers": Array [
+          "00123123",
+        ],
+        "to_date": null,
+      },
+      "getArchetypes": [MockFunction],
+      "getDetail": [MockFunction],
+      "item": Visit {
+        "archetypeIds": Array [],
+        "archetypes": Array [],
+        "fromDate": "",
+        "id": "",
+        "lockGroups": Array [],
+        "tagNumbers": Array [],
+        "toDate": "",
+      },
+      "poll": [MockFunction],
+      "removeAccess": [MockFunction],
+      "removeTag": [MockFunction],
+      "save": [MockFunction],
+      "simulateValidationError": [Function],
+      "toggleEditing": [MockFunction],
+      "validationError": undefined,
+    }
+  }
+/>
+`;
+
+exports[`<ViewVisitPanel /> renders correctly with tags, rooms and archetypes 1`] = `
+<ViewVisitPanel
+  match={
+    Object {
+      "params": Object {
+        "profileId": "123",
+      },
+    }
+  }
+  profiles={
+    ProfilesMock {
+      "data": Array [
+        Object {
+          "company": "test 123",
+          "created": "2019-04-16T12:03:37.493156",
+          "emailAddress": "dsg@dsf.com",
+          "firstName": "Clark",
+          "id": "1aa657bc-d556-4643-a68f-af46f1bdba89",
+          "isStaff": false,
+          "lastName": "Kent",
+          "mobileNumber": "01234567890",
+          "notes": "fdsdfsfs",
+          "visits": Array [
+            Object {
+              "archetypeIds": Array [],
+              "fromDate": "2015-03-23T11:00:00Z",
+              "id": "d3aa88e2-c754-41e0-8ba6-4198a34aa0a2",
+              "lockGroups": Array [
+                "Default",
+                "Boiler",
+                "1.11",
+              ],
+              "tagNumbers": Array [
+                "123123",
+                "234234",
+                "345345",
+              ],
+              "toDate": "2015-11-25T12:00:00Z",
+            },
+          ],
+        },
+      ],
+      "detail": Object {
+        "company": "test 123",
+        "created": "2019-04-16T12:03:37.493156",
+        "emailAddress": "dsg@dsf.com",
+        "firstName": "Clark",
+        "id": "1aa657bc-d556-4643-a68f-af46f1bdba89",
+        "lastName": "Kent",
+        "mobileNumber": "01234567890",
+        "notes": "fdsdfsfs",
+        "visits": Array [
+          Object {
+            "archetypeIds": Array [],
+            "fromDate": "2015-03-23T11:00:00Z",
+            "id": "d3aa88e2-c754-41e0-8ba6-4198a34aa0a2",
+            "lockGroups": Array [
+              "Default",
+              "Boiler",
+              "1.11",
+            ],
+            "tagNumbers": Array [
+              "123123",
+              "234234",
+              "345345",
+            ],
+            "toDate": "2015-11-25T12:00:00Z",
+          },
+        ],
+      },
+      "getDetail": [MockFunction],
+      "getList": [MockFunction],
+      "isError": false,
+      "isLoading": false,
+      "item": Profile {
+        "company": undefined,
+        "created": undefined,
+        "emailAddress": "",
+        "firstName": "",
+        "fullName": undefined,
+        "id": "",
+        "isStaff": false,
+        "lastName": "",
+        "mobileNumber": "",
+        "notes": undefined,
+        "numberOfTags": undefined,
+        "type": undefined,
+        "visits": undefined,
+      },
+      "items": Array [],
+      "save": [MockFunction],
+      "toggleEditing": [MockFunction],
+    }
+  }
+  routing={
+    RoutingMock {
+      "breadcrumb": Array [
+        Object {
+          "id": "123-123-123",
+          "page": "profile",
+        },
+      ],
+      "getBreadcrumb": [MockFunction],
+      "go": [MockFunction],
+      "goBack": [MockFunction],
+      "goBackToPage": [MockFunction],
+      "goForward": [MockFunction],
+      "history": Object {},
+      "location": Object {},
+      "push": [MockFunction],
+      "replace": [MockFunction],
+      "resizeBreadcrumbs": [MockFunction],
+      "splitThings": [MockFunction],
+    }
+  }
+  visits={
+    Object {
+      "addAccess": [MockFunction],
+      "addTag": [MockFunction],
+      "archetypes": Object {
+        "primary": Array [
+          Object {
+            "id": "111-111-111",
+            "lockGroupNames": Array [
+              "door1",
+              "door2",
+            ],
+            "name": "Functional API Tests",
+            "primary": false,
+          },
+        ],
+        "secondary": Array [],
+      },
+      "clearErrors": [MockFunction],
+      "detail": Object {
+        "archetype_ids": Array [
+          "111-111-111",
+        ],
+        "from_date": "2019-05-20T13:31:08.202Z",
+        "id": "7439672c-190e-4b17-9c8e-48ab1bc8922f",
+        "lockGroups": Array [
+          Object {
+            "id": "ae46555c-309b-4251-8923-84e0ae5410a0",
+            "name": "Back door",
+            "notes": null,
+            "saltoLockIds": Array [],
+            "type": "Other",
+          },
+        ],
+        "tag_numbers": Array [
+          "123123123",
+          "234234234",
+        ],
+        "to_date": null,
+      },
+      "getArchetypes": [MockFunction],
+      "getDetail": [MockFunction],
+      "item": Visit {
+        "archetypeIds": Array [],
+        "archetypes": Array [],
+        "fromDate": "",
+        "id": "",
+        "lockGroups": Array [],
+        "tagNumbers": Array [],
+        "toDate": "",
+      },
+      "poll": [MockFunction],
+      "removeAccess": [MockFunction],
+      "removeTag": [MockFunction],
+      "save": [MockFunction],
+      "simulateValidationError": [Function],
+      "toggleEditing": [MockFunction],
+      "validationError": undefined,
+    }
+  }
+/>
+`;

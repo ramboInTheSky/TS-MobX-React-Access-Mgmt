@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Layout /> Does not re-render on children props change 1`] = `
+<Layout
+  auth={
+    AuthMock {
+      "checkSession": [MockFunction],
+      "getUser": [MockFunction],
+      "login": [MockFunction],
+      "logout": [MockFunction],
+      "redirectToPage": "/profile/123",
+      "user": Object {
+        "accessToken": "xZXnpwklGhqd-zN5pJKbkHXNg5jBdJYu",
+        "appState": null,
+        "idToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik5UY3…XhKpVLcBSw6qUe4KgjCI4sIgDa3_Kh7TbaSLgd__pJdZLriQg",
+        "idTokenPayload": Object {},
+        "refreshToken": null,
+      },
+    }
+  }
+>
+  Goodbye
+</Layout>
+`;
+
+exports[`<Layout /> passes on props correctly 1`] = `
+<Layout
+  auth={
+    AuthMock {
+      "checkSession": [MockFunction],
+      "getUser": [MockFunction],
+      "login": [MockFunction],
+      "logout": [MockFunction],
+      "redirectToPage": "/profile/123",
+      "user": Object {
+        "accessToken": "xZXnpwklGhqd-zN5pJKbkHXNg5jBdJYu",
+        "appState": null,
+        "idToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik5UY3…XhKpVLcBSw6qUe4KgjCI4sIgDa3_Kh7TbaSLgd__pJdZLriQg",
+        "idTokenPayload": Object {},
+        "refreshToken": null,
+      },
+    }
+  }
+>
+  bar
+</Layout>
+`;
+
+exports[`<Layout /> renders correctly 1`] = `
+<Layout
+  auth={
+    AuthMock {
+      "checkSession": [MockFunction],
+      "getUser": [MockFunction],
+      "login": [MockFunction],
+      "logout": [MockFunction],
+      "redirectToPage": "/profile/123",
+      "user": Object {
+        "accessToken": "xZXnpwklGhqd-zN5pJKbkHXNg5jBdJYu",
+        "appState": null,
+        "idToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik5UY3…XhKpVLcBSw6qUe4KgjCI4sIgDa3_Kh7TbaSLgd__pJdZLriQg",
+        "idTokenPayload": Object {},
+        "refreshToken": null,
+      },
+    }
+  }
+/>
+`;

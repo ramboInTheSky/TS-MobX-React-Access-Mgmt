@@ -1,0 +1,206 @@
+#DEV
+dev_yarn_dependencies:
+  stage: frontend-dev-ui-yarn-install-dependencies
+  image: node:11
+  script:
+    - cd roost-ui
+    - yarn
+  cache:
+    key: "${CI_COMMIT_SHORT_SHA}-dev-dependencies"
+    paths:
+      - roost-ui/node_modules/
+    policy: push
+  only:
+    refs:
+      - master
+    changes:
+      - roost-ui/**/*
+
+dev_yarn_test:
+  stage: frontend-dev-ui-yarn-build-and-test
+  image: node:11
+  script:
+    - cd roost-ui
+    - yarn test
+  cache:
+    key: "${CI_COMMIT_SHORT_SHA}-dev-dependencies"
+    paths:
+      - roost-ui/node_modules/
+    policy: pull
+  only:
+    refs:
+      - master
+    changes:
+      - roost-ui/**/*
+
+dev_ui_build:
+  stage: frontend-dev-ui-yarn-build-and-test
+  image: node:11
+  script: 
+    - cd roost-ui
+    - sed -i -e 's|#build-number#|'${CI_COMMIT_SHA:0:8}'|g' src/constants/api_versions.ts
+    - cat src/constants/api_versions.ts
+    - yarn run build
+  cache:
+    key: "${CI_COMMIT_SHORT_SHA}-dev-dependencies"
+    paths:
+      - roost-ui/node_modules/
+      - roost-ui/build
+  only:
+    refs:
+      - master
+    changes:
+      - roost-ui/**/*
+
+dev_ui_deploy:
+  stage: frontend-dev-ui-deploy
+  image: node:11
+  script: 
+    - apt-get update
+    - apt-get install -y python-pip
+    - apt-get install groff -y
+    - pip --no-cache-dir install --upgrade awscli
+    - cd roost-ui
+    - aws s3 sync --region eu-west-2 --acl public-read /builds/thecollective/roost-frontend/roost-ui/build s3://csp-dev-static-delivery --delete --exclude 'swaggerui/*' --exclude 'reports/*'
+  cache:
+    key: "${CI_COMMIT_SHORT_SHA}-dev-dependencies"
+    paths:
+#      - roost-ui/node_modules/
+      - roost-ui/build
+    policy: pull
+  only:
+    refs:
+      - master
+    changes:
+      - roost-ui/**/*
+  environment:
+    name: Dev UI
+    url: https://csp-dev.thecollective.com
+
+island_yarn_dependencies:
+  stage: frontend-island-ui-yarn-install-dependencies
+  image: node:11
+  script:
+    - cd roost-ui
+    - yarn
+  cache:
+    key: "${CI_COMMIT_SHORT_SHA}-island-dependencies"
+    paths:
+      - roost-ui/node_modules/
+    policy: push
+  only:
+    refs:
+      - develop
+    changes:
+      - roost-ui/**/*
+
+island_yarn_test:
+  stage: frontend-island-ui-yarn-build-and-test
+  image: node:11
+  script:
+    - cd roost-ui
+    - yarn test
+  cache:
+    key: "${CI_COMMIT_SHORT_SHA}-island-dependencies"
+    paths:
+      - roost-ui/node_modules/
+    policy: pull
+  only:
+    refs:
+      - develop
+    changes:
+      - roost-ui/**/*
+
+island_ui_build:
+  stage: frontend-island-ui-yarn-build-and-test
+  image: node:11
+  script:
+    - cd roost-ui
+    - yarn run build
+  cache:
+    key: "${CI_COMMIT_SHORT_SHA}-island-dependencies"
+    paths:
+      - roost-ui/node_modules/
+      - roost-ui/build
+  only:
+    refs:
+      - develop
+    changes:
+      - roost-ui/**/*
+
+island_ui_deploy:
+  stage: frontend-island-ui-deploy
+  image: node:11
+  script:
+    - apt-get update
+    - apt-get install -y python-pip
+    - apt-get install groff -y
+    - pip --no-cache-dir install --upgrade awscli
+    - cd roost-ui
+    - aws s3 sync --region eu-west-2 --acl public-read /builds/thecollective/roost-frontend/roost-ui/build s3://csp-island-static-delivery --delete --exclude 'swaggerui/*' --exclude 'reports/*'
+  cache:
+    key: "${CI_COMMIT_SHORT_SHA}-island-dependencies"
+    paths:
+      #      - roost-ui/node_modules/
+      - roost-ui/build
+    policy: pull
+  only:
+    refs:
+      - develop
+    changes:
+      - roost-ui/**/*
+  environment:
+    name: Dev UI
+    url: https://csp-island.thecollective.com
+
+staging_ui_deploy:
+  stage: frontend-staging-ui-deploy
+  image: node:11
+  script: 
+    - apt-get update
+    - apt-get install -y python-pip
+    - apt-get install groff -y
+    - pip --no-cache-dir install --upgrade awscli
+    - cd roost-ui
+    - aws s3 sync --region eu-west-2 --acl public-read /builds/thecollective/roost-frontend/roost-ui/build s3://csp-staging-static-delivery --delete --exclude 'swaggerui/*'
+  cache:
+    key: "${CI_COMMIT_SHORT_SHA}-dev-dependencies"
+    paths:
+      - roost-ui/build
+    policy: pull
+  only:
+    refs:
+      - master
+    changes:
+      - roost-ui/**/*
+  environment:
+    name: Dev UI
+    url: https://csp-staging.thecollective.com
+
+
+#PROD
+
+prod_ui_deploy:
+  stage: frontend-prod-ui-deploy
+  image: node:11
+  script: 
+    - apt-get update
+    - apt-get install -y python-pip
+    - apt-get install groff -y
+    - pip --no-cache-dir install --upgrade awscli
+    - cd roost-ui
+    - aws s3 sync --region eu-west-2 --acl public-read /builds/thecollective/roost-frontend/roost-ui/build s3://csp-prod-static-delivery --delete --exclude 'swaggerui/*' --exclude 'reports/*'
+  cache:
+    key: "${CI_COMMIT_SHORT_SHA}-dev-dependencies"
+    paths:
+      - roost-ui/build
+    policy: pull
+  only:
+    refs:
+      - master
+    changes:
+      - roost-ui/**/*
+  environment:
+    name: Dev UI
+    url: https://csp-prod.thecollective.com
+  when: manual

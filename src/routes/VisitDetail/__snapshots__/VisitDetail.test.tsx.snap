@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VisitDetail /> handles API errors 1`] = `
+<inject-Layout-with-auth>
+  <Boundary>
+    <inject-ViewVisitPanel-with-profiles-routing-visits />
+  </Boundary>
+</inject-Layout-with-auth>
+`;
+
+exports[`<VisitDetail /> renders correctly 1`] = `
+<inject-Layout-with-auth>
+  <Boundary>
+    <inject-ViewVisitPanel-with-profiles-routing-visits />
+  </Boundary>
+</inject-Layout-with-auth>
+`;
+
+exports[`<VisitDetail /> renders correctly when NEW Profile 1`] = `
+<inject-Layout-with-auth>
+  <Boundary>
+    <inject-ViewVisitPanel-with-profiles-routing-visits />
+  </Boundary>
+</inject-Layout-with-auth>
+`;
+
+exports[`<VisitDetail /> renders correctly when data is loading 1`] = `
+<inject-Layout-with-auth>
+  <Boundary>
+    <inject-ViewVisitPanel-with-profiles-routing-visits />
+  </Boundary>
+</inject-Layout-with-auth>
+`;

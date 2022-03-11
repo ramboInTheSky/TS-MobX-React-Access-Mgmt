@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Grid /> renders correctly 1`] = `
+<Boundary>
+  <Styled(WithStyles(ForwardRef(Paper)))
+    className="ag-theme-material"
+  >
+    <CSSTransitionGroup
+      transitionAppear={true}
+      transitionAppearTimeout={200}
+      transitionEnter={true}
+      transitionEnterTimeout={200}
+      transitionLeave={true}
+      transitionLeaveTimeout={200}
+      transitionName="fade"
+    >
+      <AgGridReact
+        animateRows={true}
+        columnDefs={
+          Array [
+            Object {
+              "field": "firstName",
+              "headerName": "First Name",
+            },
+            Object {
+              "field": "lastName",
+              "headerName": "Last Name",
+            },
+          ]
+        }
+        defaultColDef={
+          Object {
+            "cellStyle": Object {
+              "textAlign": "left",
+            },
+            "editable": false,
+            "filter": "agTextColumnFilter",
+            "minWidth": 100,
+            "resizable": true,
+            "sortable": true,
+            "suppressMenu": true,
+          }
+        }
+        onGridReady={[Function]}
+        onRowClicked={[MockFunction]}
+        reactNext={true}
+        rowData={
+          Array [
+            Object {
+              "firstName": "Bruce",
+              "lastName": "Wayne",
+            },
+            Object {
+              "firstName": "Bruce",
+              "lastName": "Wayne",
+            },
+          ]
+        }
+        rowSelection="single"
+        suppressCellSelection={true}
+      />
+    </CSSTransitionGroup>
+  </Styled(WithStyles(ForwardRef(Paper)))>
+</Boundary>
+`;
+
+exports[`<Grid /> renders when is loading 1`] = `
+<Boundary>
+  <Styled(WithStyles(ForwardRef(Paper)))
+    className="ag-theme-material"
+  >
+    <CSSTransitionGroup
+      transitionAppear={true}
+      transitionAppearTimeout={200}
+      transitionEnter={true}
+      transitionEnterTimeout={200}
+      transitionLeave={true}
+      transitionLeaveTimeout={200}
+      transitionName="fade"
+    />
+  </Styled(WithStyles(ForwardRef(Paper)))>
+</Boundary>
+`;
+
+exports[`<Grid /> renders when there is no data 1`] = `
+<Boundary>
+  <Styled(WithStyles(ForwardRef(Paper)))
+    className="ag-theme-material"
+  >
+    <CSSTransitionGroup
+      transitionAppear={true}
+      transitionAppearTimeout={200}
+      transitionEnter={true}
+      transitionEnterTimeout={200}
+      transitionLeave={true}
+      transitionLeaveTimeout={200}
+      transitionName="fade"
+    >
+      <AgGridReact
+        animateRows={true}
+        columnDefs={
+          Array [
+            Object {
+              "field": "firstName",
+              "headerName": "First Name",
+            },
+            Object {
+              "field": "lastName",
+              "headerName": "Last Name",
+            },
+          ]
+        }
+        defaultColDef={
+          Object {
+            "cellStyle": Object {
+              "textAlign": "left",
+            },
+            "editable": false,
+            "filter": "agTextColumnFilter",
+            "minWidth": 100,
+            "resizable": true,
+            "sortable": true,
+            "suppressMenu": true,
+          }
+        }
+        onGridReady={[Function]}
+        onRowClicked={[MockFunction]}
+        reactNext={true}
+        rowData={Array []}
+        rowSelection="single"
+        suppressCellSelection={true}
+      />
+    </CSSTransitionGroup>
+  </Styled(WithStyles(ForwardRef(Paper)))>
+</Boundary>
+`;

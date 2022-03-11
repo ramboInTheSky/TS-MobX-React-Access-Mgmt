@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ErrorMessage /> renders correctly 1`] = `
+<Styled(div)>
+  <h3>
+    Something has gone wrong!
+  </h3>
+  <br />
+  <br />
+  <Link
+    onClick={[Function]}
+    to="/"
+  >
+    Go back to home page
+  </Link>
+</Styled(div)>
+`;

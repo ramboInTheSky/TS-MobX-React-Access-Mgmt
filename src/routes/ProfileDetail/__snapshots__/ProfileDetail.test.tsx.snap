@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProfileDetail /> handles API errors 1`] = `
+<inject-Layout-with-auth>
+  <inject-ErrorMessage-with-routing />
+</inject-Layout-with-auth>
+`;
+
+exports[`<ProfileDetail /> renders correctly 1`] = `
+<inject-Layout-with-auth>
+  <Component
+    component="div"
+    loaded={true}
+    loadedClassName="loadedContent"
+    parentClassName="loader"
+  >
+    <inject-DetailPanel-with-profiles-routing-visits
+      callback={[Function]}
+    />
+    <inject-VisitsPanel-with-profiles-routing />
+  </Component>
+</inject-Layout-with-auth>
+`;
+
+exports[`<ProfileDetail /> renders correctly when NEW Profile 1`] = `
+<inject-Layout-with-auth>
+  <Component
+    component="div"
+    loaded={true}
+    loadedClassName="loadedContent"
+    parentClassName="loader"
+  >
+    <inject-DetailPanel-with-profiles-routing-visits
+      callback={[Function]}
+    />
+    <inject-VisitsPanel-with-profiles-routing />
+  </Component>
+</inject-Layout-with-auth>
+`;
+
+exports[`<ProfileDetail /> renders correctly when data is loading 1`] = `
+<inject-Layout-with-auth>
+  <Component
+    component="div"
+    loaded={true}
+    loadedClassName="loadedContent"
+    parentClassName="loader"
+  >
+    <inject-DetailPanel-with-profiles-routing-visits
+      callback={[Function]}
+    />
+    <inject-VisitsPanel-with-profiles-routing />
+  </Component>
+</inject-Layout-with-auth>
+`;
+
+exports[`<ProfileDetail /> renders correctly when on create mode 1`] = `
+<inject-Layout-with-auth>
+  <Component
+    component="div"
+    loaded={true}
+    loadedClassName="loadedContent"
+    parentClassName="loader"
+  >
+    <inject-DetailPanel-with-profiles-routing-visits
+      callback={[Function]}
+    />
+    <inject-VisitsPanel-with-profiles-routing />
+  </Component>
+</inject-Layout-with-auth>
+`;
+
+exports[`<ProfileDetail /> renders correctly when on edit mode 1`] = `
+<inject-Layout-with-auth>
+  <Component
+    component="div"
+    loaded={true}
+    loadedClassName="loadedContent"
+    parentClassName="loader"
+  >
+    <inject-DetailPanel-with-profiles-routing-visits
+      callback={[Function]}
+    />
+    <inject-VisitsPanel-with-profiles-routing />
+  </Component>
+</inject-Layout-with-auth>
+`;
+
+exports[`<ProfileDetail /> renders correctly with data 1`] = `
+<inject-Layout-with-auth>
+  <Component
+    component="div"
+    loaded={true}
+    loadedClassName="loadedContent"
+    parentClassName="loader"
+  >
+    <inject-DetailPanel-with-profiles-routing-visits
+      callback={[Function]}
+    />
+    <inject-VisitsPanel-with-profiles-routing />
+  </Component>
+</inject-Layout-with-auth>
+`;

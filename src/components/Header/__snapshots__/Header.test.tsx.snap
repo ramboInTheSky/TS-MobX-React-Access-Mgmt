@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> Does open the settings menu 1`] = `
+<Header
+  auth={
+    AuthMock {
+      "checkSession": [MockFunction],
+      "getUser": [MockFunction],
+      "login": [MockFunction],
+      "logout": [MockFunction],
+      "redirectToPage": "/profile/123",
+      "user": Object {
+        "accessToken": "xZXnpwklGhqd-zN5pJKbkHXNg5jBdJYu",
+        "appState": null,
+        "idToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik5UY3…XhKpVLcBSw6qUe4KgjCI4sIgDa3_Kh7TbaSLgd__pJdZLriQg",
+        "idTokenPayload": Object {},
+        "refreshToken": null,
+      },
+    }
+  }
+/>
+`;
+
+exports[`<Header /> Does open the user menu 1`] = `
+<Header
+  auth={
+    AuthMock {
+      "checkSession": [MockFunction],
+      "getUser": [MockFunction],
+      "login": [MockFunction],
+      "logout": [MockFunction],
+      "redirectToPage": "/profile/123",
+      "user": Object {
+        "accessToken": "xZXnpwklGhqd-zN5pJKbkHXNg5jBdJYu",
+        "appState": null,
+        "idToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik5UY3…XhKpVLcBSw6qUe4KgjCI4sIgDa3_Kh7TbaSLgd__pJdZLriQg",
+        "idTokenPayload": Object {},
+        "refreshToken": null,
+      },
+    }
+  }
+/>
+`;
+
+exports[`<Header /> renders correctly 1`] = `
+<Header
+  auth={
+    AuthMock {
+      "checkSession": [MockFunction],
+      "getUser": [MockFunction],
+      "login": [MockFunction],
+      "logout": [MockFunction],
+      "redirectToPage": "/profile/123",
+      "user": Object {
+        "accessToken": "xZXnpwklGhqd-zN5pJKbkHXNg5jBdJYu",
+        "appState": null,
+        "idToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik5UY3…XhKpVLcBSw6qUe4KgjCI4sIgDa3_Kh7TbaSLgd__pJdZLriQg",
+        "idTokenPayload": Object {},
+        "refreshToken": null,
+      },
+    }
+  }
+/>
+`;

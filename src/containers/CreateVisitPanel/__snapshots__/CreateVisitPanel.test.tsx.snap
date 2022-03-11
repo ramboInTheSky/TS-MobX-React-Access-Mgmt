@@ -1,0 +1,504 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CreateVisitPanel /> disables buttons if DateFrom is past DateTo 1`] = `
+<WithStyles(ForwardRef(Button))
+  className="detail-panel-save-button"
+  color="primary"
+  disabled={false}
+  onClick={[Function]}
+  variant="contained"
+>
+  Next
+  <pure(KeyboardArrowRightIcon) />
+</WithStyles(ForwardRef(Button))>
+`;
+
+exports[`<CreateVisitPanel /> disables buttons if DateFrom is past DateTo 2`] = `null`;
+
+exports[`<CreateVisitPanel /> disables buttons if DateFrom is past DateTo 3`] = `null`;
+
+exports[`<CreateVisitPanel /> hides dateto and timeTo when the checkbox is clicked 1`] = `
+<Styled(div)>
+  <Styled(WithStyles(ForwardRef(Paper)))>
+    <Boundary>
+      <Styled(div)>
+        <Styled(span)>
+          <span>
+            <pure(HotelIcon) />
+             Add Visit
+          </span>
+          <span>
+            <pure(KeyboardArrowRightIcon) />
+          </span>
+          <Styled(span)>
+            <pure(PersonIcon) />
+             
+          </Styled(span)>
+        </Styled(span)>
+        <WithStyles(WithFormControlContext(ForwardRef(FormControlLabel)))
+          control={
+            <ForwardRef(WithStyles)
+              checked={false}
+              className="no-end-date-checkbox"
+              onChange={[Function]}
+              value="checkedA"
+            />
+          }
+          label="No End Date"
+        />
+      </Styled(div)>
+    </Boundary>
+    <Boundary>
+      <MuiPickersUtilsProvider
+        utils={[Function]}
+      >
+        <CSSTransitionGroup
+          transitionAppear={true}
+          transitionAppearTimeout={200}
+          transitionEnter={true}
+          transitionEnterTimeout={200}
+          transitionLeave={true}
+          transitionLeaveTimeout={200}
+          transitionName="fade"
+        >
+          <Styled(div)
+            className="pickers"
+          >
+            <Styled(div)>
+              <ForwardRef
+                className="date-from-datepicker"
+                format="LL, (dddd)"
+                label="Date From"
+                maxDate={7889184000000}
+                maxDateMessage="\\"Date From\\" cannot be before \\"Date To\\""
+                onChange={[Function]}
+                value={2220-01-01T00:00:00.000Z}
+              />
+              <ForwardRef
+                className="date-from-timepicker"
+                error={false}
+                helperText={null}
+                label="Time From"
+                minutesStep={15}
+                onChange={[Function]}
+                value={2220-01-01T00:00:00.000Z}
+              />
+            </Styled(div)>
+            <Styled(div)>
+              <ForwardRef
+                className="date-to-datepicker"
+                format="LL, (dddd)"
+                label="Date To"
+                onChange={[Function]}
+                value={null}
+              />
+              <ForwardRef
+                className="date-to-timepicker"
+                label="Time To"
+                minutesStep={15}
+                onChange={[Function]}
+                value={null}
+              />
+            </Styled(div)>
+          </Styled(div)>
+        </CSSTransitionGroup>
+      </MuiPickersUtilsProvider>
+    </Boundary>
+  </Styled(WithStyles(ForwardRef(Paper)))>
+  <Boundary>
+    <Styled(div)>
+      <div
+        key="111-111-111"
+      >
+        <WithStyles(ForwardRef(Button))
+          className="archetype-button"
+          color="primary"
+          disabled={false}
+          onClick={[Function]}
+          variant="contained"
+        >
+           
+          Functional API Tests
+        </WithStyles(ForwardRef(Button))>
+      </div>
+      <Styled(WithStyles(WithFormControlContext(ForwardRef(Select))))
+        autoWidth={true}
+        onChange={[Function]}
+        value="0"
+      >
+        <WithStyles(ForwardRef(MenuItem))
+          disabled={true}
+          value="0"
+        >
+          Other Archetypes
+        </WithStyles(ForwardRef(MenuItem))>
+      </Styled(WithStyles(WithFormControlContext(ForwardRef(Select))))>
+    </Styled(div)>
+  </Boundary>
+  <Boundary>
+    <Styled(div)>
+      <CSSTransitionGroup
+        transitionAppear={true}
+        transitionAppearTimeout={200}
+        transitionEnter={true}
+        transitionEnterTimeout={200}
+        transitionLeave={true}
+        transitionLeaveTimeout={200}
+        transitionName="expand"
+      />
+    </Styled(div)>
+  </Boundary>
+  <Boundary>
+    <Styled(div)>
+      <WithStyles(ForwardRef(Button))
+        onClick={[Function]}
+        variant="contained"
+      >
+        <pure(KeyboardArrowLeftIcon) />
+        Cancel
+      </WithStyles(ForwardRef(Button))>
+      <Styled(div)>
+        <WithStyles(ForwardRef(Button))
+          className="detail-panel-save-button"
+          color="primary"
+          disabled={false}
+          onClick={[Function]}
+          variant="contained"
+        >
+          Next
+          <pure(KeyboardArrowRightIcon) />
+        </WithStyles(ForwardRef(Button))>
+      </Styled(div)>
+    </Styled(div)>
+  </Boundary>
+</Styled(div)>
+`;
+
+exports[`<CreateVisitPanel /> renders correctly 1`] = `
+<Styled(div)>
+  <Styled(WithStyles(ForwardRef(Paper)))>
+    <Boundary>
+      <Styled(div)>
+        <Styled(span)>
+          <span>
+            <pure(HotelIcon) />
+             Add Visit
+          </span>
+          <span>
+            <pure(KeyboardArrowRightIcon) />
+          </span>
+          <Styled(span)>
+            <pure(PersonIcon) />
+             
+          </Styled(span)>
+        </Styled(span)>
+        <WithStyles(WithFormControlContext(ForwardRef(FormControlLabel)))
+          control={
+            <ForwardRef(WithStyles)
+              checked={false}
+              className="no-end-date-checkbox"
+              onChange={[Function]}
+              value="checkedA"
+            />
+          }
+          label="No End Date"
+        />
+      </Styled(div)>
+    </Boundary>
+    <Boundary>
+      <MuiPickersUtilsProvider
+        utils={[Function]}
+      >
+        <CSSTransitionGroup
+          transitionAppear={true}
+          transitionAppearTimeout={200}
+          transitionEnter={true}
+          transitionEnterTimeout={200}
+          transitionLeave={true}
+          transitionLeaveTimeout={200}
+          transitionName="fade"
+        >
+          <Styled(div)
+            className="pickers"
+          >
+            <Styled(div)>
+              <ForwardRef
+                className="date-from-datepicker"
+                format="LL, (dddd)"
+                label="Date From"
+                maxDate={4733510400000}
+                maxDateMessage="\\"Date From\\" cannot be before \\"Date To\\""
+                onChange={[Function]}
+                value={2120-01-01T00:00:00.000Z}
+              />
+              <ForwardRef
+                className="date-from-timepicker"
+                error={false}
+                helperText={null}
+                label="Time From"
+                minutesStep={15}
+                onChange={[Function]}
+                value={2120-01-01T00:00:00.000Z}
+              />
+            </Styled(div)>
+            <Styled(div)>
+              <ForwardRef
+                className="date-to-datepicker"
+                format="LL, (dddd)"
+                label="Date To"
+                onChange={[Function]}
+                value={null}
+              />
+              <ForwardRef
+                className="date-to-timepicker"
+                label="Time To"
+                minutesStep={15}
+                onChange={[Function]}
+                value={null}
+              />
+            </Styled(div)>
+          </Styled(div)>
+        </CSSTransitionGroup>
+      </MuiPickersUtilsProvider>
+    </Boundary>
+  </Styled(WithStyles(ForwardRef(Paper)))>
+  <Boundary>
+    <Styled(div)>
+      <div
+        key="111-111-111"
+      >
+        <WithStyles(ForwardRef(Button))
+          className="archetype-button"
+          color="primary"
+          disabled={false}
+          onClick={[Function]}
+          variant="contained"
+        >
+           
+          Functional API Tests
+        </WithStyles(ForwardRef(Button))>
+      </div>
+      <Styled(WithStyles(WithFormControlContext(ForwardRef(Select))))
+        autoWidth={true}
+        onChange={[Function]}
+        value="0"
+      >
+        <WithStyles(ForwardRef(MenuItem))
+          disabled={true}
+          value="0"
+        >
+          Other Archetypes
+        </WithStyles(ForwardRef(MenuItem))>
+      </Styled(WithStyles(WithFormControlContext(ForwardRef(Select))))>
+    </Styled(div)>
+  </Boundary>
+  <Boundary>
+    <Styled(div)>
+      <CSSTransitionGroup
+        transitionAppear={true}
+        transitionAppearTimeout={200}
+        transitionEnter={true}
+        transitionEnterTimeout={200}
+        transitionLeave={true}
+        transitionLeaveTimeout={200}
+        transitionName="expand"
+      />
+    </Styled(div)>
+  </Boundary>
+  <Boundary>
+    <Styled(div)>
+      <WithStyles(ForwardRef(Button))
+        onClick={[Function]}
+        variant="contained"
+      >
+        <pure(KeyboardArrowLeftIcon) />
+        Cancel
+      </WithStyles(ForwardRef(Button))>
+      <Styled(div)>
+        <WithStyles(ForwardRef(Button))
+          className="detail-panel-save-button"
+          color="primary"
+          disabled={false}
+          onClick={[Function]}
+          variant="contained"
+        >
+          Next
+          <pure(KeyboardArrowRightIcon) />
+        </WithStyles(ForwardRef(Button))>
+      </Styled(div)>
+    </Styled(div)>
+  </Boundary>
+</Styled(div)>
+`;
+
+exports[`<CreateVisitPanel /> selects an archetype 1`] = `
+<Styled(div)>
+  <Styled(WithStyles(ForwardRef(Paper)))>
+    <Boundary>
+      <Styled(div)>
+        <Styled(span)>
+          <span>
+            <pure(HotelIcon) />
+             Add Visit
+          </span>
+          <span>
+            <pure(KeyboardArrowRightIcon) />
+          </span>
+          <Styled(span)>
+            <pure(PersonIcon) />
+             
+          </Styled(span)>
+        </Styled(span)>
+        <WithStyles(WithFormControlContext(ForwardRef(FormControlLabel)))
+          control={
+            <ForwardRef(WithStyles)
+              checked={false}
+              className="no-end-date-checkbox"
+              onChange={[Function]}
+              value="checkedA"
+            />
+          }
+          label="No End Date"
+        />
+      </Styled(div)>
+    </Boundary>
+    <Boundary>
+      <MuiPickersUtilsProvider
+        utils={[Function]}
+      >
+        <CSSTransitionGroup
+          transitionAppear={true}
+          transitionAppearTimeout={200}
+          transitionEnter={true}
+          transitionEnterTimeout={200}
+          transitionLeave={true}
+          transitionLeaveTimeout={200}
+          transitionName="fade"
+        >
+          <Styled(div)
+            className="pickers"
+          >
+            <Styled(div)>
+              <ForwardRef
+                className="date-from-datepicker"
+                format="LL, (dddd)"
+                label="Date From"
+                maxDate={17356291200000}
+                maxDateMessage="\\"Date From\\" cannot be before \\"Date To\\""
+                onChange={[Function]}
+                value={2520-01-01T00:00:00.000Z}
+              />
+              <ForwardRef
+                className="date-from-timepicker"
+                error={false}
+                helperText={null}
+                label="Time From"
+                minutesStep={15}
+                onChange={[Function]}
+                value={2520-01-01T00:00:00.000Z}
+              />
+            </Styled(div)>
+            <Styled(div)>
+              <ForwardRef
+                className="date-to-datepicker"
+                format="LL, (dddd)"
+                label="Date To"
+                onChange={[Function]}
+                value={null}
+              />
+              <ForwardRef
+                className="date-to-timepicker"
+                label="Time To"
+                minutesStep={15}
+                onChange={[Function]}
+                value={null}
+              />
+            </Styled(div)>
+          </Styled(div)>
+        </CSSTransitionGroup>
+      </MuiPickersUtilsProvider>
+    </Boundary>
+  </Styled(WithStyles(ForwardRef(Paper)))>
+  <Boundary>
+    <Styled(div)>
+      <div
+        key="d3aa88e2-c754-41e0-8ba6-4198a34aa0a1"
+      >
+        <WithStyles(ForwardRef(Button))
+          className="archetype-button"
+          color="primary"
+          disabled={true}
+          onClick={[Function]}
+          variant="contained"
+        >
+           
+        </WithStyles(ForwardRef(Button))>
+      </div>
+      <Styled(WithStyles(WithFormControlContext(ForwardRef(Select))))
+        autoWidth={true}
+        onChange={[Function]}
+        value="0"
+      >
+        <WithStyles(ForwardRef(MenuItem))
+          disabled={true}
+          value="0"
+        >
+          Other Archetypes
+        </WithStyles(ForwardRef(MenuItem))>
+      </Styled(WithStyles(WithFormControlContext(ForwardRef(Select))))>
+    </Styled(div)>
+  </Boundary>
+  <Boundary>
+    <Styled(div)>
+      <CSSTransitionGroup
+        transitionAppear={true}
+        transitionAppearTimeout={200}
+        transitionEnter={true}
+        transitionEnterTimeout={200}
+        transitionLeave={true}
+        transitionLeaveTimeout={200}
+        transitionName="expand"
+      >
+        <ArchetypeCard
+          archetype={
+            Object {
+              "ArchetypeLockGroupNames": Array [
+                "lockGroup1",
+                "lockGroup2",
+              ],
+              "archetypeName": "Short Stay",
+              "archetypePrimary": true,
+              "id": "d3aa88e2-c754-41e0-8ba6-4198a34aa0a1",
+            }
+          }
+          key="d3aa88e2-c754-41e0-8ba6-4198a34aa0a1"
+          removeItemFn={[Function]}
+        />
+      </CSSTransitionGroup>
+    </Styled(div)>
+  </Boundary>
+  <Boundary>
+    <Styled(div)>
+      <WithStyles(ForwardRef(Button))
+        onClick={[Function]}
+        variant="contained"
+      >
+        <pure(KeyboardArrowLeftIcon) />
+        Cancel
+      </WithStyles(ForwardRef(Button))>
+      <Styled(div)>
+        <WithStyles(ForwardRef(Button))
+          className="detail-panel-save-button"
+          color="primary"
+          disabled={false}
+          onClick={[Function]}
+          variant="contained"
+        >
+          Next
+          <pure(KeyboardArrowRightIcon) />
+        </WithStyles(ForwardRef(Button))>
+      </Styled(div)>
+    </Styled(div)>
+  </Boundary>
+</Styled(div)>
+`;

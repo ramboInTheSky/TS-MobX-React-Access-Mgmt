@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ManageCustomAccess /> handles API errors 1`] = `<inject-ErrorMessage-with-routing />`;
+
+exports[`<ManageCustomAccess /> renders correctly 1`] = `
+<inject-Layout-with-auth>
+  <Boundary>
+    <inject-ManageCustomAccessPanel-with-profiles-routing-visits-lockGroups
+      addAccessFn={[Function]}
+      removeAccessFn={[Function]}
+    />
+  </Boundary>
+</inject-Layout-with-auth>
+`;
+
+exports[`<ManageCustomAccess /> renders correctly when data is loading 1`] = `
+<inject-Layout-with-auth>
+  <Boundary>
+    <inject-ManageCustomAccessPanel-with-profiles-routing-visits-lockGroups
+      addAccessFn={[Function]}
+      removeAccessFn={[Function]}
+    />
+  </Boundary>
+</inject-Layout-with-auth>
+`;
+
+exports[`<ManageCustomAccess /> renders correctly with data 1`] = `
+<inject-Layout-with-auth>
+  <Boundary>
+    <inject-ManageCustomAccessPanel-with-profiles-routing-visits-lockGroups
+      addAccessFn={[Function]}
+      removeAccessFn={[Function]}
+    />
+  </Boundary>
+</inject-Layout-with-auth>
+`;

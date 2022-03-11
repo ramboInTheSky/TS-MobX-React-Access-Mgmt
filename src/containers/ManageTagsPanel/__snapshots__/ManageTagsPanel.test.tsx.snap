@@ -1,0 +1,594 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ManageTagsPanel /> correctly add a tag 1`] = `
+<Styled(div)>
+  <Styled(WithStyles(ForwardRef(Paper)))>
+    <Boundary>
+      <Styled(div)>
+        <Styled(span)>
+          <Styled(span)>
+            <pure(PersonIcon) />
+            undefined undefined
+          </Styled(span)>
+          <span>
+            <pure(KeyboardArrowRightIcon) />
+          </span>
+          <span>
+            <pure(HotelIcon) />
+             Visit  
+          </span>
+          <Styled(span)>
+            The Future
+          </Styled(span)>
+          <span>
+            <pure(ArrowForwardIcon) />
+          </span>
+          <Styled(span)>
+            The Future
+          </Styled(span)>
+          <span>
+            <pure(KeyboardArrowRightIcon) />
+          </span>
+          <span>
+            <pure(VpnKeyIcon) />
+             Manage Tags
+          </span>
+        </Styled(span)>
+      </Styled(div)>
+    </Boundary>
+    <Boundary>
+      <Styled(div)>
+        <Styled(div)
+          elevation={1}
+        >
+          <Styled(WithStyles(ForwardRef(IconButton)))
+            aria-label="Clear"
+            id="add-tag-input-clear"
+            onClick={[Function]}
+            title="Clear Search"
+          >
+            <pure(CloseIcon) />
+          </Styled(WithStyles(ForwardRef(IconButton)))>
+          <Styled(WithStyles(ForwardRef(TextField)))
+            id="add-tag-input-field"
+            name="add-tag-input-field"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Add a Tag number"
+            type="number"
+            value="123123"
+          />
+          <Component
+            component="div"
+            loaded={true}
+            loadedClassName="loadedContent"
+            options={
+              Object {
+                "position": "relative",
+                "scale": 0.5,
+              }
+            }
+            parentClassName="loader"
+          >
+            <div
+              className="--flex"
+            >
+              <Styled(WithStyles(ForwardRef(IconButton)))
+                aria-label="Search"
+                id="add-tag-input-button"
+                onClick={[Function]}
+                title="Search"
+              >
+                <pure(AddIcon) />
+              </Styled(WithStyles(ForwardRef(IconButton)))>
+            </div>
+          </Component>
+        </Styled(div)>
+      </Styled(div)>
+    </Boundary>
+  </Styled(WithStyles(ForwardRef(Paper)))>
+  <Boundary>
+    <Styled(div)>
+      <WithStyles(ForwardRef(Button))
+        className="detail-panel-manage-rooms-button"
+        onClick={[Function]}
+        variant="contained"
+      >
+        <pure(KeyboardArrowLeftIcon) />
+        Back
+      </WithStyles(ForwardRef(Button))>
+    </Styled(div)>
+  </Boundary>
+</Styled(div)>
+`;
+
+exports[`<ManageTagsPanel /> renders correctly when coming from new Visit 1`] = `
+<Styled(div)>
+  <Styled(WithStyles(ForwardRef(Paper)))>
+    <Boundary>
+      <Styled(div)>
+        <Styled(span)>
+          <Styled(span)>
+            <pure(PersonIcon) />
+            undefined undefined
+          </Styled(span)>
+          <span>
+            <pure(KeyboardArrowRightIcon) />
+          </span>
+          <span>
+            <pure(HotelIcon) />
+             Visit  
+          </span>
+          <Styled(span)>
+            The Future
+          </Styled(span)>
+          <span>
+            <pure(ArrowForwardIcon) />
+          </span>
+          <Styled(span)>
+            The Future
+          </Styled(span)>
+          <span>
+            <pure(KeyboardArrowRightIcon) />
+          </span>
+          <span>
+            <pure(VpnKeyIcon) />
+             Manage Tags
+          </span>
+        </Styled(span)>
+      </Styled(div)>
+    </Boundary>
+    <Boundary>
+      <Styled(div)>
+        <Styled(div)
+          elevation={1}
+        >
+          <Styled(WithStyles(ForwardRef(TextField)))
+            id="add-tag-input-field"
+            name="add-tag-input-field"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Add a Tag number"
+            type="number"
+            value=""
+          />
+          <Component
+            component="div"
+            loaded={true}
+            loadedClassName="loadedContent"
+            options={
+              Object {
+                "position": "relative",
+                "scale": 0.5,
+              }
+            }
+            parentClassName="loader"
+          >
+            <div
+              className="--flex"
+            >
+              <Styled(WithStyles(ForwardRef(IconButton)))
+                aria-label="Search"
+                id="add-tag-input-button"
+                onClick={[Function]}
+                title="Search"
+              >
+                <pure(AddIcon) />
+              </Styled(WithStyles(ForwardRef(IconButton)))>
+            </div>
+          </Component>
+        </Styled(div)>
+      </Styled(div)>
+    </Boundary>
+  </Styled(WithStyles(ForwardRef(Paper)))>
+  <Boundary>
+    <Styled(div)>
+      <WithStyles(ForwardRef(Button))
+        className="detail-panel-manage-rooms-button"
+        onClick={[Function]}
+        variant="contained"
+      >
+        <pure(KeyboardArrowLeftIcon) />
+        Back
+      </WithStyles(ForwardRef(Button))>
+      <Styled(div)>
+        <WithStyles(ForwardRef(Button))
+          className="manage-tags-panel-done-button"
+          color="primary"
+          onClick={[Function]}
+          variant="contained"
+        >
+          <pure(CheckCircleIcon) />
+            Finish
+        </WithStyles(ForwardRef(Button))>
+      </Styled(div)>
+    </Styled(div)>
+  </Boundary>
+</Styled(div)>
+`;
+
+exports[`<ManageTagsPanel /> renders correctly when not coming from new Visit 1`] = `
+<Styled(div)>
+  <Styled(WithStyles(ForwardRef(Paper)))>
+    <Boundary>
+      <Styled(div)>
+        <Styled(span)>
+          <Styled(span)>
+            <pure(PersonIcon) />
+            undefined undefined
+          </Styled(span)>
+          <span>
+            <pure(KeyboardArrowRightIcon) />
+          </span>
+          <span>
+            <pure(HotelIcon) />
+             Visit  
+          </span>
+          <Styled(span)>
+            The Future
+          </Styled(span)>
+          <span>
+            <pure(ArrowForwardIcon) />
+          </span>
+          <Styled(span)>
+            The Future
+          </Styled(span)>
+          <span>
+            <pure(KeyboardArrowRightIcon) />
+          </span>
+          <span>
+            <pure(VpnKeyIcon) />
+             Manage Tags
+          </span>
+        </Styled(span)>
+      </Styled(div)>
+    </Boundary>
+    <Boundary>
+      <Styled(div)>
+        <Styled(div)
+          elevation={1}
+        >
+          <Styled(WithStyles(ForwardRef(TextField)))
+            id="add-tag-input-field"
+            name="add-tag-input-field"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Add a Tag number"
+            type="number"
+            value=""
+          />
+          <Component
+            component="div"
+            loaded={true}
+            loadedClassName="loadedContent"
+            options={
+              Object {
+                "position": "relative",
+                "scale": 0.5,
+              }
+            }
+            parentClassName="loader"
+          >
+            <div
+              className="--flex"
+            >
+              <Styled(WithStyles(ForwardRef(IconButton)))
+                aria-label="Search"
+                id="add-tag-input-button"
+                onClick={[Function]}
+                title="Search"
+              >
+                <pure(AddIcon) />
+              </Styled(WithStyles(ForwardRef(IconButton)))>
+            </div>
+          </Component>
+        </Styled(div)>
+      </Styled(div)>
+    </Boundary>
+  </Styled(WithStyles(ForwardRef(Paper)))>
+  <Boundary>
+    <Styled(div)>
+      <WithStyles(ForwardRef(Button))
+        className="detail-panel-manage-rooms-button"
+        onClick={[Function]}
+        variant="contained"
+      >
+        <pure(KeyboardArrowLeftIcon) />
+        Back
+      </WithStyles(ForwardRef(Button))>
+    </Styled(div)>
+  </Boundary>
+</Styled(div)>
+`;
+
+exports[`<ManageTagsPanel /> renders correctly with no data 1`] = `
+<Styled(div)>
+  <Styled(WithStyles(ForwardRef(Paper)))>
+    <Boundary>
+      <Styled(div)>
+        <Styled(span)>
+          <Styled(span)>
+            <pure(PersonIcon) />
+            undefined undefined
+          </Styled(span)>
+          <span>
+            <pure(KeyboardArrowRightIcon) />
+          </span>
+          <span>
+            <pure(HotelIcon) />
+             Visit  
+          </span>
+          <Styled(span)>
+            The Future
+          </Styled(span)>
+          <span>
+            <pure(ArrowForwardIcon) />
+          </span>
+          <Styled(span)>
+            The Future
+          </Styled(span)>
+          <span>
+            <pure(KeyboardArrowRightIcon) />
+          </span>
+          <span>
+            <pure(VpnKeyIcon) />
+             Manage Tags
+          </span>
+        </Styled(span)>
+      </Styled(div)>
+    </Boundary>
+    <Boundary>
+      <Styled(div)>
+        <Styled(div)
+          elevation={1}
+        >
+          <Styled(WithStyles(ForwardRef(TextField)))
+            id="add-tag-input-field"
+            name="add-tag-input-field"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Add a Tag number"
+            type="number"
+            value=""
+          />
+          <Component
+            component="div"
+            loaded={true}
+            loadedClassName="loadedContent"
+            options={
+              Object {
+                "position": "relative",
+                "scale": 0.5,
+              }
+            }
+            parentClassName="loader"
+          >
+            <div
+              className="--flex"
+            >
+              <Styled(WithStyles(ForwardRef(IconButton)))
+                aria-label="Search"
+                id="add-tag-input-button"
+                onClick={[Function]}
+                title="Search"
+              >
+                <pure(AddIcon) />
+              </Styled(WithStyles(ForwardRef(IconButton)))>
+            </div>
+          </Component>
+        </Styled(div)>
+      </Styled(div)>
+    </Boundary>
+  </Styled(WithStyles(ForwardRef(Paper)))>
+  <Boundary>
+    <Styled(div)>
+      <WithStyles(ForwardRef(Button))
+        className="detail-panel-manage-rooms-button"
+        onClick={[Function]}
+        variant="contained"
+      >
+        <pure(KeyboardArrowLeftIcon) />
+        Back
+      </WithStyles(ForwardRef(Button))>
+    </Styled(div)>
+  </Boundary>
+</Styled(div)>
+`;
+
+exports[`<ManageTagsPanel /> returns a vaildation error when the tag API returns an error 1`] = `
+<Styled(div)>
+  <Styled(WithStyles(ForwardRef(Paper)))>
+    <Boundary>
+      <Styled(div)>
+        <Styled(span)>
+          <Styled(span)>
+            <pure(PersonIcon) />
+            undefined undefined
+          </Styled(span)>
+          <span>
+            <pure(KeyboardArrowRightIcon) />
+          </span>
+          <span>
+            <pure(HotelIcon) />
+             Visit  
+          </span>
+          <Styled(span)>
+            The Future
+          </Styled(span)>
+          <span>
+            <pure(ArrowForwardIcon) />
+          </span>
+          <Styled(span)>
+            The Future
+          </Styled(span)>
+          <span>
+            <pure(KeyboardArrowRightIcon) />
+          </span>
+          <span>
+            <pure(VpnKeyIcon) />
+             Manage Tags
+          </span>
+        </Styled(span)>
+      </Styled(div)>
+    </Boundary>
+    <Boundary>
+      <Styled(div)>
+        <Styled(div)
+          elevation={1}
+        >
+          <Styled(WithStyles(ForwardRef(TextField)))
+            id="add-tag-input-field"
+            name="add-tag-input-field"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Add a Tag number"
+            type="number"
+            value=""
+          />
+          <Component
+            component="div"
+            loaded={true}
+            loadedClassName="loadedContent"
+            options={
+              Object {
+                "position": "relative",
+                "scale": 0.5,
+              }
+            }
+            parentClassName="loader"
+          >
+            <div
+              className="--flex"
+            >
+              <Styled(WithStyles(ForwardRef(IconButton)))
+                aria-label="Search"
+                id="add-tag-input-button"
+                onClick={[Function]}
+                title="Search"
+              >
+                <pure(AddIcon) />
+              </Styled(WithStyles(ForwardRef(IconButton)))>
+            </div>
+          </Component>
+        </Styled(div)>
+      </Styled(div)>
+    </Boundary>
+  </Styled(WithStyles(ForwardRef(Paper)))>
+  <Boundary>
+    <Styled(div)>
+      <WithStyles(ForwardRef(Button))
+        className="detail-panel-manage-rooms-button"
+        onClick={[Function]}
+        variant="contained"
+      >
+        <pure(KeyboardArrowLeftIcon) />
+        Back
+      </WithStyles(ForwardRef(Button))>
+    </Styled(div)>
+  </Boundary>
+</Styled(div)>
+`;
+
+exports[`<ManageTagsPanel /> shows validation error when adding an invalid tag number 1`] = `
+<Styled(div)>
+  <Styled(WithStyles(ForwardRef(Paper)))>
+    <Boundary>
+      <Styled(div)>
+        <Styled(span)>
+          <Styled(span)>
+            <pure(PersonIcon) />
+            undefined undefined
+          </Styled(span)>
+          <span>
+            <pure(KeyboardArrowRightIcon) />
+          </span>
+          <span>
+            <pure(HotelIcon) />
+             Visit  
+          </span>
+          <Styled(span)>
+            The Future
+          </Styled(span)>
+          <span>
+            <pure(ArrowForwardIcon) />
+          </span>
+          <Styled(span)>
+            The Future
+          </Styled(span)>
+          <span>
+            <pure(KeyboardArrowRightIcon) />
+          </span>
+          <span>
+            <pure(VpnKeyIcon) />
+             Manage Tags
+          </span>
+        </Styled(span)>
+      </Styled(div)>
+    </Boundary>
+    <Boundary>
+      <Styled(div)>
+        <Styled(div)
+          elevation={1}
+        >
+          <Styled(WithStyles(ForwardRef(IconButton)))
+            aria-label="Clear"
+            id="add-tag-input-clear"
+            onClick={[Function]}
+            title="Clear Search"
+          >
+            <pure(CloseIcon) />
+          </Styled(WithStyles(ForwardRef(IconButton)))>
+          <Styled(WithStyles(ForwardRef(TextField)))
+            error="Tag numbers should be at least 6 numbers"
+            helperText="Tag numbers should be at least 6 numbers"
+            id="add-tag-input-field"
+            name="add-tag-input-field"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Add a Tag number"
+            type="number"
+            value="123"
+          />
+          <Component
+            component="div"
+            loaded={true}
+            loadedClassName="loadedContent"
+            options={
+              Object {
+                "position": "relative",
+                "scale": 0.5,
+              }
+            }
+            parentClassName="loader"
+          >
+            <div
+              className="--flex"
+            >
+              <Styled(WithStyles(ForwardRef(IconButton)))
+                aria-label="Search"
+                id="add-tag-input-button"
+                onClick={[Function]}
+                title="Search"
+              >
+                <pure(AddIcon) />
+              </Styled(WithStyles(ForwardRef(IconButton)))>
+            </div>
+          </Component>
+        </Styled(div)>
+      </Styled(div)>
+    </Boundary>
+  </Styled(WithStyles(ForwardRef(Paper)))>
+  <Boundary>
+    <Styled(div)>
+      <WithStyles(ForwardRef(Button))
+        className="detail-panel-manage-rooms-button"
+        onClick={[Function]}
+        variant="contained"
+      >
+        <pure(KeyboardArrowLeftIcon) />
+        Back
+      </WithStyles(ForwardRef(Button))>
+    </Styled(div)>
+  </Boundary>
+</Styled(div)>
+`;

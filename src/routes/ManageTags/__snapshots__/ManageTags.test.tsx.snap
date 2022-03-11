@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ManageTags /> handles API errors 1`] = `
+<inject-Layout-with-auth>
+  <Boundary>
+    <inject-ManageTagsPanel-with-profiles-routing-visits
+      addTag={[Function]}
+      removeTag={[Function]}
+    />
+  </Boundary>
+</inject-Layout-with-auth>
+`;
+
+exports[`<ManageTags /> renders correctly 1`] = `
+<inject-Layout-with-auth>
+  <Boundary>
+    <inject-ManageTagsPanel-with-profiles-routing-visits
+      addTag={[Function]}
+      removeTag={[Function]}
+    />
+  </Boundary>
+</inject-Layout-with-auth>
+`;
+
+exports[`<ManageTags /> renders correctly when data is loading 1`] = `
+<inject-Layout-with-auth>
+  <Boundary>
+    <inject-ManageTagsPanel-with-profiles-routing-visits
+      addTag={[Function]}
+      removeTag={[Function]}
+    />
+  </Boundary>
+</inject-Layout-with-auth>
+`;
+
+exports[`<ManageTags /> renders correctly when visit status is loading 1`] = `
+<inject-Layout-with-auth>
+  <Boundary>
+    <inject-ManageTagsPanel-with-profiles-routing-visits
+      addTag={[Function]}
+      removeTag={[Function]}
+    />
+  </Boundary>
+</inject-Layout-with-auth>
+`;

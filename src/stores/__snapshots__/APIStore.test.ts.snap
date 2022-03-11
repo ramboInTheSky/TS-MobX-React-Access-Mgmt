@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Store /> renders correctly 1`] = `
+Store {
+  "apiEnded": [Function],
+  "fresh": false,
+  "isFresh": [Function],
+  "url": "/url",
+}
+`;

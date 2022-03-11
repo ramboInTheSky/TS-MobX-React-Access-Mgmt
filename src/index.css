@@ -1,0 +1,97 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 16px;
+	color: #333;
+	box-sizing: border-box;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.--flex{
+	display: flex;
+}
+
+.ag-row{
+	cursor: pointer;
+}
+
+/* .-ag-row-hover, .ag-row:hover{
+	background-color: #fcfdba !important;
+} */
+
+.fade-appear {
+	opacity: 0.01;
+}
+
+svg {
+	vertical-align: sub;
+}
+
+.fade-appear.fade-appear-active {
+	opacity: 1;
+	transition: opacity 0.2s ease-in;
+}
+
+.fade-enter {
+	opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+	opacity: 1;
+	transition: opacity 200ms ease-in;
+}
+
+.fade-leave {
+	opacity: 1;
+}
+
+.fade-leave.fade-leave-active {
+	opacity: 0.01;
+	transition: opacity 200ms ease-in;
+}
+
+.expand-appear {
+	opacity: 0.01;
+	height: 0px;
+}
+
+.expand-appear.expand-appear-active {
+	height: 90px;
+	opacity: 1;
+	transition: height 0.2s;
+}
+
+.expand-enter {
+	opacity: 0.01;
+	height: 0px;
+}
+
+.expand-enter.expand-enter-active {
+	height: 90px;
+	opacity: 1;
+	transition: height 200ms;
+}
+
+.expand-leave {
+	height: 90px;
+	opacity: 1;
+}
+
+.expand-leave.expand-leave-active {
+	height: 0px;
+	opacity: 0.01;
+	transition: height 200ms;
+}

@@ -1,0 +1,389 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Profiles /> handles API errors 1`] = `
+<inject-Layout-with-auth>
+  <Styled(div)>
+    Profiles
+  </Styled(div)>
+  <Styled(div)>
+    <Styled(div)>
+      <Search
+        onChange={[Function]}
+      />
+    </Styled(div)>
+    <Styled(div)
+      aria-label="Add Profile"
+      id="add-profile-button"
+      onClick={[Function]}
+      title="Add Profile"
+    >
+      <WithStyles(ForwardRef(Button))
+        color="primary"
+        variant="contained"
+      >
+        <pure(AddIcon) />
+         Add Profile
+      </WithStyles(ForwardRef(Button))>
+    </Styled(div)>
+  </Styled(div)>
+  <Component
+    component="div"
+    loaded={true}
+    loadedClassName="loadedContent"
+    parentClassName="loader"
+  >
+    <Grid
+      columnDefs={
+        Array [
+          Object {
+            "field": "fullName",
+            "headerName": "Name",
+            "minWidth": 70,
+          },
+          Object {
+            "field": "type",
+            "headerName": "Type",
+            "width": 70,
+          },
+          Object {
+            "cellRenderer": [Function],
+            "field": "created",
+            "headerName": "Created",
+            "minWidth": 110,
+            "width": 120,
+          },
+          Object {
+            "field": "emailAddress",
+            "headerName": "Email",
+            "minWidth": 250,
+          },
+          Object {
+            "field": "mobileNumber",
+            "headerName": "Phone",
+            "minWidth": 120,
+          },
+          Object {
+            "field": "company",
+            "headerName": "Company",
+            "minWidth": 70,
+          },
+          Object {
+            "field": "notes",
+            "headerName": "Notes",
+            "minWidth": 70,
+          },
+          Object {
+            "cellRenderer": [Function],
+            "field": "visits",
+            "headerName": "Visits",
+            "minWidth": 90,
+            "width": 90,
+          },
+        ]
+      }
+      loading={false}
+      onRowClicked={[Function]}
+      rowData={Array []}
+    />
+  </Component>
+</inject-Layout-with-auth>
+`;
+
+exports[`<Profiles /> renders correctly 1`] = `
+<inject-Layout-with-auth>
+  <Styled(div)>
+    Profiles
+  </Styled(div)>
+  <Styled(div)>
+    <Styled(div)>
+      <Search
+        onChange={[Function]}
+      />
+    </Styled(div)>
+    <Styled(div)
+      aria-label="Add Profile"
+      id="add-profile-button"
+      onClick={[Function]}
+      title="Add Profile"
+    >
+      <WithStyles(ForwardRef(Button))
+        color="primary"
+        variant="contained"
+      >
+        <pure(AddIcon) />
+         Add Profile
+      </WithStyles(ForwardRef(Button))>
+    </Styled(div)>
+  </Styled(div)>
+  <Component
+    component="div"
+    loaded={true}
+    loadedClassName="loadedContent"
+    parentClassName="loader"
+  >
+    <Grid
+      columnDefs={
+        Array [
+          Object {
+            "field": "fullName",
+            "headerName": "Name",
+            "minWidth": 70,
+          },
+          Object {
+            "field": "type",
+            "headerName": "Type",
+            "width": 70,
+          },
+          Object {
+            "cellRenderer": [Function],
+            "field": "created",
+            "headerName": "Created",
+            "minWidth": 110,
+            "width": 120,
+          },
+          Object {
+            "field": "emailAddress",
+            "headerName": "Email",
+            "minWidth": 250,
+          },
+          Object {
+            "field": "mobileNumber",
+            "headerName": "Phone",
+            "minWidth": 120,
+          },
+          Object {
+            "field": "company",
+            "headerName": "Company",
+            "minWidth": 70,
+          },
+          Object {
+            "field": "notes",
+            "headerName": "Notes",
+            "minWidth": 70,
+          },
+          Object {
+            "cellRenderer": [Function],
+            "field": "visits",
+            "headerName": "Visits",
+            "minWidth": 90,
+            "width": 90,
+          },
+        ]
+      }
+      loading={false}
+      onRowClicked={[Function]}
+      rowData={Array []}
+    />
+  </Component>
+</inject-Layout-with-auth>
+`;
+
+exports[`<Profiles /> renders correctly when data is loading 1`] = `
+<inject-Layout-with-auth>
+  <Styled(div)>
+    Profiles
+  </Styled(div)>
+  <Styled(div)>
+    <Styled(div)>
+      <Search
+        onChange={[Function]}
+      />
+    </Styled(div)>
+    <Styled(div)
+      aria-label="Add Profile"
+      id="add-profile-button"
+      onClick={[Function]}
+      title="Add Profile"
+    >
+      <WithStyles(ForwardRef(Button))
+        color="primary"
+        variant="contained"
+      >
+        <pure(AddIcon) />
+         Add Profile
+      </WithStyles(ForwardRef(Button))>
+    </Styled(div)>
+  </Styled(div)>
+  <Component
+    component="div"
+    loaded={false}
+    loadedClassName="loadedContent"
+    parentClassName="loader"
+  >
+    <Grid
+      columnDefs={
+        Array [
+          Object {
+            "field": "fullName",
+            "headerName": "Name",
+            "minWidth": 70,
+          },
+          Object {
+            "field": "type",
+            "headerName": "Type",
+            "width": 70,
+          },
+          Object {
+            "cellRenderer": [Function],
+            "field": "created",
+            "headerName": "Created",
+            "minWidth": 110,
+            "width": 120,
+          },
+          Object {
+            "field": "emailAddress",
+            "headerName": "Email",
+            "minWidth": 250,
+          },
+          Object {
+            "field": "mobileNumber",
+            "headerName": "Phone",
+            "minWidth": 120,
+          },
+          Object {
+            "field": "company",
+            "headerName": "Company",
+            "minWidth": 70,
+          },
+          Object {
+            "field": "notes",
+            "headerName": "Notes",
+            "minWidth": 70,
+          },
+          Object {
+            "cellRenderer": [Function],
+            "field": "visits",
+            "headerName": "Visits",
+            "minWidth": 90,
+            "width": 90,
+          },
+        ]
+      }
+      loading={true}
+      onRowClicked={[Function]}
+      rowData={Array []}
+    />
+  </Component>
+</inject-Layout-with-auth>
+`;
+
+exports[`<Profiles /> renders correctly with data 1`] = `
+<inject-Layout-with-auth>
+  <Styled(div)>
+    Profiles
+  </Styled(div)>
+  <Styled(div)>
+    <Styled(div)>
+      <Search
+        onChange={[Function]}
+      />
+    </Styled(div)>
+    <Styled(div)
+      aria-label="Add Profile"
+      id="add-profile-button"
+      onClick={[Function]}
+      title="Add Profile"
+    >
+      <WithStyles(ForwardRef(Button))
+        color="primary"
+        variant="contained"
+      >
+        <pure(AddIcon) />
+         Add Profile
+      </WithStyles(ForwardRef(Button))>
+    </Styled(div)>
+  </Styled(div)>
+  <Component
+    component="div"
+    loaded={true}
+    loadedClassName="loadedContent"
+    parentClassName="loader"
+  >
+    <Grid
+      columnDefs={
+        Array [
+          Object {
+            "field": "fullName",
+            "headerName": "Name",
+            "minWidth": 70,
+          },
+          Object {
+            "field": "type",
+            "headerName": "Type",
+            "width": 70,
+          },
+          Object {
+            "cellRenderer": [Function],
+            "field": "created",
+            "headerName": "Created",
+            "minWidth": 110,
+            "width": 120,
+          },
+          Object {
+            "field": "emailAddress",
+            "headerName": "Email",
+            "minWidth": 250,
+          },
+          Object {
+            "field": "mobileNumber",
+            "headerName": "Phone",
+            "minWidth": 120,
+          },
+          Object {
+            "field": "company",
+            "headerName": "Company",
+            "minWidth": 70,
+          },
+          Object {
+            "field": "notes",
+            "headerName": "Notes",
+            "minWidth": 70,
+          },
+          Object {
+            "cellRenderer": [Function],
+            "field": "visits",
+            "headerName": "Visits",
+            "minWidth": 90,
+            "width": 90,
+          },
+        ]
+      }
+      loading={false}
+      onRowClicked={[Function]}
+      rowData={
+        Array [
+          Object {
+            "company": "test 123",
+            "created": "2019-04-16T12:03:37.493156",
+            "emailAddress": "dsg@dsf.com",
+            "firstName": "Clark",
+            "id": "1aa657bc-d556-4643-a68f-af46f1bdba89",
+            "isStaff": false,
+            "lastName": "Kent",
+            "mobileNumber": "01234567890",
+            "notes": "fdsdfsfs",
+            "visits": Array [
+              Object {
+                "archetypeIds": Array [],
+                "fromDate": "2015-03-23T11:00:00Z",
+                "id": "d3aa88e2-c754-41e0-8ba6-4198a34aa0a2",
+                "lockGroups": Array [
+                  "Default",
+                  "Boiler",
+                  "1.11",
+                ],
+                "tagNumbers": Array [
+                  "123123",
+                  "234234",
+                  "345345",
+                ],
+                "toDate": "2015-11-25T12:00:00Z",
+              },
+            ],
+          },
+        ]
+      }
+    />
+  </Component>
+</inject-Layout-with-auth>
+`;

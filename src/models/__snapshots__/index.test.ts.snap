@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateProfile renders correctly 1`] = `
+CreateProfile {
+  "company": undefined,
+  "emailAddress": "",
+  "firstName": "",
+  "lastName": "",
+  "mobileNumber": "",
+  "notes": undefined,
+  "type": undefined,
+}
+`;
+
+exports[`CreateVisit renders correctly 1`] = `
+CreateVisit {
+  "archetypeIds": Array [],
+  "fromDate": "",
+  "lockGroups": Array [],
+  "tagNumbers": Array [],
+  "toDate": "",
+}
+`;
+
+exports[`EditProfile renders correctly 1`] = `
+EditProfile {
+  "company": undefined,
+  "created": undefined,
+  "emailAddress": "",
+  "firstName": "",
+  "id": undefined,
+  "lastName": "",
+  "mobileNumber": "",
+  "notes": undefined,
+  "type": undefined,
+}
+`;
+
+exports[`LockGroup renders correctly 1`] = `
+LockGroup {
+  "id": "",
+  "name": "",
+  "notes": "",
+  "selected": false,
+  "type": "Room",
+}
+`;
+
+exports[`Profile renders correctly 1`] = `
+Profile {
+  "company": undefined,
+  "created": undefined,
+  "emailAddress": "",
+  "firstName": "",
+  "fullName": undefined,
+  "id": "",
+  "isStaff": false,
+  "lastName": "",
+  "mobileNumber": "",
+  "notes": undefined,
+  "numberOfTags": undefined,
+  "type": undefined,
+  "visits": undefined,
+}
+`;
+
+exports[`Tag renders correctly 1`] = `
+Tag {
+  "tagNumber": null,
+}
+`;
+
+exports[`Visit renders correctly 1`] = `
+Visit {
+  "archetypeIds": Array [],
+  "archetypes": Array [],
+  "fromDate": "",
+  "id": "",
+  "lockGroups": Array [],
+  "tagNumbers": Array [],
+  "toDate": "",
+}
+`;

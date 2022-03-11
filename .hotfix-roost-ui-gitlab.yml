@@ -1,0 +1,102 @@
+#DEPENDENCIES
+hotfix_yarn_dependencies:
+  stage: hotfix-frontend-yarn-dependencies
+  image: node:11
+  script:
+    - cd roost-ui
+    - yarn
+  cache:
+    key: "${CI_COMMIT_SHORT_SHA}-hotfix-dependencies"
+    paths:
+      - roost-ui/node_modules/
+    policy: push
+  only:
+    refs:
+      - /^hotfix-.*$/
+    changes:
+      - roost-ui/**/*
+# TEST
+hotfix_yarn_test:
+  stage: hotfix-frontend-yarn-test-and-build
+  image: node:11
+  script:
+    - cd roost-ui
+    - yarn test
+  cache:
+    key: "${CI_COMMIT_SHORT_SHA}-hotfix-dependencies"
+    paths:
+      - roost-ui/node_modules/
+    policy: pull
+  only:
+    refs:
+      - /^hotfix-.*$/
+    changes:
+      - roost-ui/**/*
+#BUILD
+hotfix_yarn_build:
+  stage: hotfix-frontend-yarn-test-and-build
+  image: node:11
+  script:
+    - cd roost-ui
+    - sed -i -e 's|#build-number#|'${CI_COMMIT_SHA:0:8}'|g' src/constants/api_versions.ts
+    - cat src/constants/api_versions.ts
+    - yarn run build
+  cache:
+    key: "${CI_COMMIT_SHORT_SHA}-hotfix-dependencies"
+    paths:
+      - roost-ui/node_modules/
+      - roost-ui/build
+  only:
+    refs:
+      - /^hotfix-.*$/
+    changes:
+      - roost-ui/**/*
+#DEPLOY STAGING
+hotfix_ui_deploy_staging:
+  stage: hotfix-frontend-deploy-staging
+  image: node:11
+  script:
+    - apt-get update
+    - apt-get install -y python-pip
+    - apt-get install groff -y
+    - pip --no-cache-dir install --upgrade awscli
+    - cd roost-ui
+    - aws s3 sync --region eu-west-2 --acl public-read /builds/thecollective/roost-frontend/roost-ui/build s3://csp-staging-static-delivery --delete --exclude 'swaggerui/*'
+  cache:
+    key: "${CI_COMMIT_SHORT_SHA}-hotfix-dependencies"
+    paths:
+      - roost-ui/build
+    policy: pull
+  only:
+    refs:
+      - /^hotfix-.*$/
+    changes:
+      - roost-ui/**/*
+  environment:
+    name: Dev UI
+    url: https://csp-staging.thecollective.com
+#DEPLOY PROD
+hotfix_ui_deploy_prod:
+  stage: hotfix-frontend-deploy-prod
+  image: node:11
+  script:
+    - apt-get update
+    - apt-get install -y python-pip
+    - apt-get install groff -y
+    - pip --no-cache-dir install --upgrade awscli
+    - cd roost-ui
+    - aws s3 sync --region eu-west-2 --acl public-read /builds/thecollective/roost-frontend/roost-ui/build s3://csp-prod-static-delivery --delete --exclude 'swaggerui/*' --exclude 'reports/*'
+  cache:
+    key: "${CI_COMMIT_SHORT_SHA}-hotfix-dependencies"
+    paths:
+      - roost-ui/build
+    policy: pull
+  only:
+    refs:
+      - /^hotfix-.*$/
+    changes:
+      - roost-ui/**/*
+  environment:
+    name: Dev UI
+    url: https://csp-prod.thecollective.com
+  when: manual

@@ -1,0 +1,559 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ManageCustomAccessPanel /> renders correctly when NOT coming from new Visit 1`] = `
+<Styled(div)>
+  <Styled(WithStyles(ForwardRef(Paper)))>
+    <Boundary>
+      <Styled(div)>
+        <Styled(span)>
+          <Styled(span)>
+            <pure(PersonIcon) />
+            undefined undefined
+          </Styled(span)>
+          <span>
+            <pure(KeyboardArrowRightIcon) />
+          </span>
+          <span>
+            <pure(HotelIcon) />
+             Visit  
+          </span>
+          <Styled(span)>
+            The Future
+          </Styled(span)>
+          <span>
+            <pure(ArrowForwardIcon) />
+          </span>
+          <Styled(span)>
+            The Future
+          </Styled(span)>
+          <span>
+            <pure(KeyboardArrowRightIcon) />
+          </span>
+          <span>
+            <pure(MeetingRoomIcon) />
+             Manage Custom Access
+          </span>
+        </Styled(span)>
+      </Styled(div)>
+    </Boundary>
+  </Styled(WithStyles(ForwardRef(Paper)))>
+  <Boundary>
+    <Component
+      component="div"
+      loaded={true}
+      loadedClassName="loadedContent"
+      parentClassName="loader"
+    />
+    <CSSTransitionGroup
+      transitionAppear={true}
+      transitionAppearTimeout={100}
+      transitionEnter={true}
+      transitionEnterTimeout={100}
+      transitionLeave={true}
+      transitionLeaveTimeout={100}
+      transitionName="fade"
+    >
+      0
+    </CSSTransitionGroup>
+  </Boundary>
+  <CSSTransitionGroup
+    transitionAppear={true}
+    transitionAppearTimeout={100}
+    transitionEnter={true}
+    transitionEnterTimeout={100}
+    transitionLeave={true}
+    transitionLeaveTimeout={100}
+    transitionName="expand"
+  />
+  <Boundary>
+    <Styled(div)>
+      <WithStyles(ForwardRef(Button))
+        className="manage-tags-panel-done-button"
+        onClick={[Function]}
+        variant="contained"
+      >
+        <pure(KeyboardArrowLeftIcon) />
+        Back
+      </WithStyles(ForwardRef(Button))>
+    </Styled(div)>
+  </Boundary>
+</Styled(div)>
+`;
+
+exports[`<ManageCustomAccessPanel /> renders correctly when coming from new Visit 1`] = `
+<Styled(div)>
+  <Styled(WithStyles(ForwardRef(Paper)))>
+    <Boundary>
+      <Styled(div)>
+        <Styled(span)>
+          <Styled(span)>
+            <pure(PersonIcon) />
+            undefined undefined
+          </Styled(span)>
+          <span>
+            <pure(KeyboardArrowRightIcon) />
+          </span>
+          <span>
+            <pure(HotelIcon) />
+             Visit  
+          </span>
+          <Styled(span)>
+            The Future
+          </Styled(span)>
+          <span>
+            <pure(ArrowForwardIcon) />
+          </span>
+          <Styled(span)>
+            The Future
+          </Styled(span)>
+          <span>
+            <pure(KeyboardArrowRightIcon) />
+          </span>
+          <span>
+            <pure(MeetingRoomIcon) />
+             Manage Custom Access
+          </span>
+        </Styled(span)>
+      </Styled(div)>
+    </Boundary>
+  </Styled(WithStyles(ForwardRef(Paper)))>
+  <Boundary>
+    <Component
+      component="div"
+      loaded={true}
+      loadedClassName="loadedContent"
+      parentClassName="loader"
+    />
+    <CSSTransitionGroup
+      transitionAppear={true}
+      transitionAppearTimeout={100}
+      transitionEnter={true}
+      transitionEnterTimeout={100}
+      transitionLeave={true}
+      transitionLeaveTimeout={100}
+      transitionName="fade"
+    >
+      0
+    </CSSTransitionGroup>
+  </Boundary>
+  <CSSTransitionGroup
+    transitionAppear={true}
+    transitionAppearTimeout={100}
+    transitionEnter={true}
+    transitionEnterTimeout={100}
+    transitionLeave={true}
+    transitionLeaveTimeout={100}
+    transitionName="expand"
+  />
+  <Boundary>
+    <Styled(div)>
+      <div>
+         
+      </div>
+      <Styled(div)>
+        <WithStyles(ForwardRef(Button))
+          className="manage-tags-panel-manage-tags-button"
+          color="primary"
+          onClick={[Function]}
+          variant="contained"
+        >
+          Next
+          <pure(KeyboardArrowRightIcon) />
+        </WithStyles(ForwardRef(Button))>
+      </Styled(div)>
+    </Styled(div)>
+  </Boundary>
+</Styled(div)>
+`;
+
+exports[`<ManageCustomAccessPanel /> renders correctly with added lockgroups 1`] = `
+<Styled(div)>
+  <Styled(WithStyles(ForwardRef(Paper)))>
+    <Boundary>
+      <Styled(div)>
+        <Styled(span)>
+          <Styled(span)>
+            <pure(PersonIcon) />
+            undefined undefined
+          </Styled(span)>
+          <span>
+            <pure(KeyboardArrowRightIcon) />
+          </span>
+          <span>
+            <pure(HotelIcon) />
+             Visit  
+          </span>
+          <Styled(span)>
+            The Future
+          </Styled(span)>
+          <span>
+            <pure(ArrowForwardIcon) />
+          </span>
+          <Styled(span)>
+            The Future
+          </Styled(span)>
+          <span>
+            <pure(KeyboardArrowRightIcon) />
+          </span>
+          <span>
+            <pure(MeetingRoomIcon) />
+             Manage Custom Access
+          </span>
+        </Styled(span)>
+      </Styled(div)>
+    </Boundary>
+  </Styled(WithStyles(ForwardRef(Paper)))>
+  <Boundary>
+    <Component
+      component="div"
+      loaded={true}
+      loadedClassName="loadedContent"
+      parentClassName="loader"
+    />
+    <CSSTransitionGroup
+      transitionAppear={true}
+      transitionAppearTimeout={100}
+      transitionEnter={true}
+      transitionEnterTimeout={100}
+      transitionLeave={true}
+      transitionLeaveTimeout={100}
+      transitionName="fade"
+    >
+      <Grid
+        columnDefs={
+          Array [
+            Object {
+              "cellRendererFramework": [Function],
+              "field": "id",
+              "headerName": "",
+              "width": 30,
+            },
+            Object {
+              "field": "name",
+              "headerName": "Name",
+              "minWidth": 70,
+            },
+            Object {
+              "field": "type",
+              "headerName": "Type",
+              "width": 50,
+            },
+            Object {
+              "field": "notes",
+              "headerName": "Notes",
+              "minWidth": 100,
+            },
+          ]
+        }
+        onRowClicked={[Function]}
+        returnApi={[Function]}
+        rowData={
+          Array [
+            Object {
+              "id": "111-111-111-111",
+              "name": "1.11",
+              "notes": "this is just a room",
+              "type": "room 11",
+            },
+            Object {
+              "id": "123-123-123-123",
+              "name": "1.12",
+              "notes": "this is the best room",
+              "type": "room 12",
+            },
+            Object {
+              "id": "123-123-123-123",
+              "name": "1.13",
+              "notes": "this is just a room",
+              "type": "room 13",
+            },
+            Object {
+              "id": "123-123-123-123",
+              "name": "1.14",
+              "notes": "this is just a room",
+              "type": "room 14",
+            },
+            Object {
+              "id": "123-123-123-123",
+              "name": "1.15",
+              "notes": "this is just a room",
+              "type": "room 15",
+            },
+            Object {
+              "id": "123-123-123-123",
+              "name": "1.16",
+              "notes": "this is just a room",
+              "type": "room 16",
+            },
+            Object {
+              "id": "123-123-123-123",
+              "name": "1.17",
+              "notes": "this is an unlucky room",
+              "type": "room 17",
+            },
+          ]
+        }
+        showQuickFilter={true}
+        small={true}
+      />
+    </CSSTransitionGroup>
+  </Boundary>
+  <CSSTransitionGroup
+    transitionAppear={true}
+    transitionAppearTimeout={100}
+    transitionEnter={true}
+    transitionEnterTimeout={100}
+    transitionLeave={true}
+    transitionLeaveTimeout={100}
+    transitionName="expand"
+  />
+  <Boundary>
+    <Styled(div)>
+      <WithStyles(ForwardRef(Button))
+        className="manage-tags-panel-done-button"
+        onClick={[Function]}
+        variant="contained"
+      >
+        <pure(KeyboardArrowLeftIcon) />
+        Back
+      </WithStyles(ForwardRef(Button))>
+    </Styled(div)>
+  </Boundary>
+</Styled(div)>
+`;
+
+exports[`<ManageCustomAccessPanel /> renders correctly with data 1`] = `
+<Styled(div)>
+  <Styled(WithStyles(ForwardRef(Paper)))>
+    <Boundary>
+      <Styled(div)>
+        <Styled(span)>
+          <Styled(span)>
+            <pure(PersonIcon) />
+            undefined undefined
+          </Styled(span)>
+          <span>
+            <pure(KeyboardArrowRightIcon) />
+          </span>
+          <span>
+            <pure(HotelIcon) />
+             Visit  
+          </span>
+          <Styled(span)>
+            The Future
+          </Styled(span)>
+          <span>
+            <pure(ArrowForwardIcon) />
+          </span>
+          <Styled(span)>
+            The Future
+          </Styled(span)>
+          <span>
+            <pure(KeyboardArrowRightIcon) />
+          </span>
+          <span>
+            <pure(MeetingRoomIcon) />
+             Manage Custom Access
+          </span>
+        </Styled(span)>
+      </Styled(div)>
+    </Boundary>
+  </Styled(WithStyles(ForwardRef(Paper)))>
+  <Boundary>
+    <Component
+      component="div"
+      loaded={true}
+      loadedClassName="loadedContent"
+      parentClassName="loader"
+    />
+    <CSSTransitionGroup
+      transitionAppear={true}
+      transitionAppearTimeout={100}
+      transitionEnter={true}
+      transitionEnterTimeout={100}
+      transitionLeave={true}
+      transitionLeaveTimeout={100}
+      transitionName="fade"
+    >
+      <Grid
+        columnDefs={
+          Array [
+            Object {
+              "cellRendererFramework": [Function],
+              "field": "id",
+              "headerName": "",
+              "width": 30,
+            },
+            Object {
+              "field": "name",
+              "headerName": "Name",
+              "minWidth": 70,
+            },
+            Object {
+              "field": "type",
+              "headerName": "Type",
+              "width": 50,
+            },
+            Object {
+              "field": "notes",
+              "headerName": "Notes",
+              "minWidth": 100,
+            },
+          ]
+        }
+        onRowClicked={[Function]}
+        returnApi={[Function]}
+        rowData={
+          Array [
+            Object {
+              "id": "111-111-111-111",
+              "name": "1.11",
+              "notes": "this is just a room",
+              "type": "room 11",
+            },
+            Object {
+              "id": "123-123-123-123",
+              "name": "1.12",
+              "notes": "this is the best room",
+              "type": "room 12",
+            },
+            Object {
+              "id": "123-123-123-123",
+              "name": "1.13",
+              "notes": "this is just a room",
+              "type": "room 13",
+            },
+            Object {
+              "id": "123-123-123-123",
+              "name": "1.14",
+              "notes": "this is just a room",
+              "type": "room 14",
+            },
+            Object {
+              "id": "123-123-123-123",
+              "name": "1.15",
+              "notes": "this is just a room",
+              "type": "room 15",
+            },
+            Object {
+              "id": "123-123-123-123",
+              "name": "1.16",
+              "notes": "this is just a room",
+              "type": "room 16",
+            },
+            Object {
+              "id": "123-123-123-123",
+              "name": "1.17",
+              "notes": "this is an unlucky room",
+              "type": "room 17",
+            },
+          ]
+        }
+        showQuickFilter={true}
+        small={true}
+      />
+    </CSSTransitionGroup>
+  </Boundary>
+  <CSSTransitionGroup
+    transitionAppear={true}
+    transitionAppearTimeout={100}
+    transitionEnter={true}
+    transitionEnterTimeout={100}
+    transitionLeave={true}
+    transitionLeaveTimeout={100}
+    transitionName="expand"
+  />
+  <Boundary>
+    <Styled(div)>
+      <WithStyles(ForwardRef(Button))
+        className="manage-tags-panel-done-button"
+        onClick={[Function]}
+        variant="contained"
+      >
+        <pure(KeyboardArrowLeftIcon) />
+        Back
+      </WithStyles(ForwardRef(Button))>
+    </Styled(div)>
+  </Boundary>
+</Styled(div)>
+`;
+
+exports[`<ManageCustomAccessPanel /> renders correctly with no data 1`] = `
+<Styled(div)>
+  <Styled(WithStyles(ForwardRef(Paper)))>
+    <Boundary>
+      <Styled(div)>
+        <Styled(span)>
+          <Styled(span)>
+            <pure(PersonIcon) />
+            undefined undefined
+          </Styled(span)>
+          <span>
+            <pure(KeyboardArrowRightIcon) />
+          </span>
+          <span>
+            <pure(HotelIcon) />
+             Visit  
+          </span>
+          <Styled(span)>
+            The Future
+          </Styled(span)>
+          <span>
+            <pure(ArrowForwardIcon) />
+          </span>
+          <Styled(span)>
+            The Future
+          </Styled(span)>
+          <span>
+            <pure(KeyboardArrowRightIcon) />
+          </span>
+          <span>
+            <pure(MeetingRoomIcon) />
+             Manage Custom Access
+          </span>
+        </Styled(span)>
+      </Styled(div)>
+    </Boundary>
+  </Styled(WithStyles(ForwardRef(Paper)))>
+  <Boundary>
+    <Component
+      component="div"
+      loaded={true}
+      loadedClassName="loadedContent"
+      parentClassName="loader"
+    />
+    <CSSTransitionGroup
+      transitionAppear={true}
+      transitionAppearTimeout={100}
+      transitionEnter={true}
+      transitionEnterTimeout={100}
+      transitionLeave={true}
+      transitionLeaveTimeout={100}
+      transitionName="fade"
+    >
+      0
+    </CSSTransitionGroup>
+  </Boundary>
+  <CSSTransitionGroup
+    transitionAppear={true}
+    transitionAppearTimeout={100}
+    transitionEnter={true}
+    transitionEnterTimeout={100}
+    transitionLeave={true}
+    transitionLeaveTimeout={100}
+    transitionName="expand"
+  />
+  <Boundary>
+    <Styled(div)>
+      <WithStyles(ForwardRef(Button))
+        className="manage-tags-panel-done-button"
+        onClick={[Function]}
+        variant="contained"
+      >
+        <pure(KeyboardArrowLeftIcon) />
+        Back
+      </WithStyles(ForwardRef(Button))>
+    </Styled(div)>
+  </Boundary>
+</Styled(div)>
+`;

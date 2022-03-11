@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<urls /> renders correctly 1`] = `
+Object {
+  "archetypes": "https://csp-dev.thecollective.com/ac-api/archetype",
+  "lockGroups": "https://csp-dev.thecollective.com/ac-api/lockgroup",
+  "profiles": "https://csp-dev.thecollective.com/ac-api/profile",
+  "visits": "https://csp-dev.thecollective.com/ac-api/visit",
+}
+`;
+
+exports[`<variables /> renders correctly 1`] = `
+Object {
+  "archetypeColor": "#a4d8f1",
+  "background": "#f5f5f5",
+  "columnSize": 80,
+  "componentBackground": "#ececec",
+  "componentBackgroundClear": "#fff",
+  "dangerColor": "#f72b2b",
+  "error": "#f72b2b",
+  "gutter": "1rem",
+  "headerBackgroundColor": "#ccc",
+  "headerFontSize": "1.2rem",
+  "indentation": "0.3rem",
+  "info": "orange",
+  "lineHeightComponentTitle": "2",
+  "primaryColor": "#b53f79",
+  "roomColor": "#eff180",
+  "spacer": "2px solid #999",
+  "success": "green",
+  "tagColor": "#b4dec7",
+  "textColor": "#666",
+  "visitDateFromColor": "#999",
+  "visitDateToColor": "#999",
+  "warning": "amber",
+}
+`;

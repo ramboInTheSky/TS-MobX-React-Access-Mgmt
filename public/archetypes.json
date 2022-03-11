@@ -1,0 +1,70 @@
+{
+  "count": 5,
+  "items": [
+    {
+      "id": "1bf06288-279b-4b18-b569-51e284e9e830",
+      "archetype_name": "Collective Staff",
+      "archetype_primary": true,
+      "archetype_lock_group_names": [
+        "Front door",
+        "Lifts",
+        "Corridors",
+        "Back door",
+        "Bin store",
+        "Stairwell",
+        "Staff room",
+        "Office space"
+      ]
+    },
+    {
+      "id": "26c76928-0e5e-48cf-acd0-fb6238d8d504",
+      "archetype_name": "Long Stay",
+      "archetype_primary": true,
+      "archetype_lock_group_names": [
+        "Lounge",
+        "Front door",
+        "Spa",
+        "Lifts",
+        "Kitchens",
+        "Corridors",
+        "Cinema",
+        "Stairwell",
+        "Gym"
+      ]
+    },
+    {
+      "id": "c3d5ad19-1075-48f0-b015-f9b47b93b46c",
+      "archetype_name": "Short Stay",
+      "archetype_primary": true,
+      "archetype_lock_group_names": [
+        "Front door",
+        "Spa",
+        "Lifts",
+        "Corridors",
+        "Stairwell"
+      ]
+    },
+    {
+      "id": "e2879349-c2cc-4b5b-bd89-00961b1290cf",
+      "archetype_name": "Housekeeping",
+      "archetype_primary": true,
+      "archetype_lock_group_names": [
+        "Front door",
+        "Lifts",
+        "Corridors",
+        "Stairwell"
+      ]
+    },
+    {
+      "id": "e95807c0-6ee7-4de5-90e9-b5ed11a26c13",
+      "archetype_name": "Contractor",
+      "archetype_primary": true,
+      "archetype_lock_group_names": [
+        "Front door",
+        "Lifts",
+        "Corridors",
+        "Stairwell"
+      ]
+    }
+  ]
+}

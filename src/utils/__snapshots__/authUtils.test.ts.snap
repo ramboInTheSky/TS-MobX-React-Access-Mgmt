@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`authUtils bufferToBase64UrlEncoded 1`] = `[Function]`;
+
+exports[`authUtils debounce 1`] = `[Function]`;
+
+exports[`authUtils getConfig 1`] = `[Function]`;
+
+exports[`authUtils randomString 1`] = `[Function]`;
+
+exports[`authUtils sha256 1`] = `[Function]`;
+
+exports[`authUtils urlEncodeB64 1`] = `[Function]`;
